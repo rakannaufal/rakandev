@@ -1,0 +1,5 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { home } from '../lib/render.mjs';
+---
+<SiteLayout><Fragment set:html={home()} /></SiteLayout>

@@ -1,0 +1,11 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+const origin=process.env.QA_ORIGIN||'http://127.0.0.1:4321';
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(origin+'/',{waitUntil:'networkidle'});await page.evaluate(async()=>{for(const img of document.images)img.loading='eager';await document.fonts.ready;await Promise.all([...document.images].map(img=>img.decode().catch(()=>{})));});
+fs.mkdirSync('qa/screenshots',{recursive:true});await page.screenshot({path:'qa/screenshots/home-desktop.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'qa/screenshots/home-mobile.png',fullPage:true});
+await page.goto(origin+'/demo/erp-custom/',{waitUntil:'networkidle'});await page.screenshot({path:'qa/screenshots/erp-mobile.png',fullPage:true});
+console.log(JSON.stringify({errors}));await browser.close();

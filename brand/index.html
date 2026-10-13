@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>RakanDev - Logo & Design System</title>
+  <link rel="icon" href="logos/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="design-system.css">
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+    body { margin: 0; background: #EAF7FF; color: var(--rd-ink); font: 400 15px/1.65 var(--rd-font-body); -webkit-font-smoothing: antialiased; }
+    button, input, select { font: inherit; }
+    button, a, input { -webkit-tap-highlight-color: transparent; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; height: auto; display: block; }
+    h1, h2, h3, p { margin: 0; }
+    h1, h2 { font: 700 54px/1.08 var(--rd-font-display); letter-spacing: 0; }
+    h3 { font-size: 17px; font-weight: 600; line-height: 1.4; }
+    button { cursor: pointer; }
+    [hidden] { display: none !important; }
+    :focus-visible { outline: 3px solid var(--rd-focus); outline-offset: 4px; }
+    ::selection { background: var(--rd-blue); color: var(--rd-ink); }
+    .skip { position: fixed; top: -100px; left: 20px; background: var(--rd-ink); color: white; padding: 12px 20px; z-index: 40; }
+    .skip:focus { top: 12px; }
+    .toolbar { position: sticky; z-index: 20; top: 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 12px 32px; background: #fffffff5; border-bottom: 1px solid #d7d0c7; backdrop-filter: blur(12px); font-size: 12px; }
+    .toolbar-brand { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+    .toolbar-brand img { width: 32px; height: 32px; }
+    .toolbar nav { display: flex; flex-wrap: wrap; gap: 24px; }
+    .toolbar nav a { padding: 8px 0; }
+    .toolbar nav a:hover { color: var(--rd-brand-hover); }
+    .download { font-weight: 600; color: var(--rd-brand-hover); text-decoration: underline; text-underline-offset: 5px; }
+    main { padding: 24px 20px 40px; }
+    .sheet { position: relative; width: min(1280px, 100%); min-height: 900px; padding: 42px 56px 82px; margin: 0 auto 24px; overflow: hidden; background: var(--rd-paper); }
+    .sheet-head, .sheet-foot { display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: 10px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; }
+    .sheet-head { border-bottom: 1px solid #dbd5ce; padding-bottom: 20px; margin-bottom: 34px; }
+    .sheet-foot { position: absolute; bottom: 30px; left: 56px; right: 56px; border-top: 1px solid #dbd5ce; padding-top: 14px; color: var(--rd-muted); }
+    .section-title { margin-bottom: 28px; display: flex; gap: 40px; align-items: flex-end; justify-content: space-between; }
+    .section-title p { max-width: 420px; color: var(--rd-muted); font-size: 13px; line-height: 1.65; }
+    .label { font-size: 10px; line-height: 1.5; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+    .muted { color: var(--rd-muted); }
+    .note { font-size: 12px; line-height: 1.65; color: var(--rd-muted); }
+    .cover .sheet-head { margin-bottom: 42px; }
+    .cover-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 68px; align-items: center; }
+    .cover-copy .label { color: var(--rd-brand-hover); }
+    .cover-word { width: 490px; margin: 24px 0 24px -12px; }
+    .cover-copy h1 { font-size: 58px; margin-bottom: 24px; }
+    .cover-copy > p { font-size: 15px; color: var(--rd-muted); max-width: 390px; }
+    .cover-rule { width: 66px; height: 4px; background: var(--rd-blue); border-radius: 80% 20% 70% 30%; margin: 24px 0 16px; transform: rotate(-4deg); }
+    .brand-plate { background-color: var(--rd-cream); background-image: radial-gradient(#08628814 .8px, transparent .8px); background-size: 16px 16px; height: 380px; padding: 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; border-radius: 24px 72px 24px 24px; }
+    .brand-plate::after { content: ''; position: absolute; top: 22px; right: 22px; width: 42px; height: 42px; background: var(--rd-sky); border-radius: 50%; }
+    .brand-plate > img { width: 260px; }
+    .plate-caption { position: absolute; bottom: 20px; left: 22px; right: 22px; display: flex; justify-content: space-between; font-size: 10px; color: var(--rd-brand-hover); }
+    .cover-detail { margin-top: 32px; display: flex; align-items: center; gap: 16px; }
+    .cover-detail img { width: 44px; height: 44px; }
+    .cover-detail p { font-size: 11px; line-height: 1.6; }
+    .cover-bottom { margin-top: 58px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 68px; }
+    .cover-signature img { width: 270px; margin: 12px 0 14px -4px; }
+    .palette-strip { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 12px; }
+    .palette-piece { height: 88px; padding: 8px; display: flex; flex-direction: column; justify-content: flex-end; font-size: 9px; line-height: 1.65; }
+    .palette-piece span { font-weight: 600; }
+    .palette-label { display: block; padding: 3px 5px; color: var(--rd-brand); background: white; }
+    .logo-grid { display: grid; grid-template-columns: 1.65fr 1fr; gap: 20px; }
+    .logo-demo { height: 208px; padding: 28px; display: flex; align-items: center; justify-content: center; background: white; border: 1px solid #e5e0da; position: relative; }
+    .logo-demo .label { position: absolute; top: 18px; left: 22px; color: var(--rd-muted); }
+    .logo-demo.horizontal img { width: 410px; }
+    .logo-demo.symbol img { width: 140px; }
+    .logo-demo.wordmark img { width: 325px; }
+    .logo-demo.dark { background: var(--rd-cream); border-color: var(--rd-cream); }
+    .logo-demo.dark .label { color: var(--rd-ink); }
+    .logo-demo.dark img { width: 255px; }
+    .logo-meta { display: flex; justify-content: space-between; gap: 12px; margin: 8px 2px 18px; font-size: 11px; color: var(--rd-muted); }
+    .micro-row { display: flex; gap: 28px; align-items: center; padding: 20px 24px; background: #FFEFC4; margin-top: 8px; }
+    .micro-row .micro-preview { width: 100px; min-height: 72px; display: grid; place-items: center; flex-shrink: 0; }
+    .micro-controls { flex: 1; display: flex; align-items: center; gap: 14px; font-size: 12px; }
+    .micro-controls input { max-width: 180px; min-height: 44px; flex: 1; accent-color: var(--rd-brand); }
+    .micro-controls output { font-weight: 600; min-width: 45px; }
+    .micro-row p { max-width: 390px; }
+    .color-main { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 18px; }
+    .swatch { border: 0; text-align: left; padding: 24px; min-height: 174px; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; width: 100%; }
+    .swatch .color-name { font-size: 22px; font-weight: 600; }
+    .swatch .color-spec { display: flex; gap: 22px; font-size: 12px; }
+    .swatch .copy-note { font-size: 10px; opacity: .85; }
+    .color-main .swatch { background: white; color: var(--rd-ink); padding: 0 0 16px; gap: 12px; }
+    .color-main .color-chip { width: 100%; height: 104px; background: var(--swatch); border-radius: 10px; }
+    .color-main .color-name { font-size: 18px; }
+    .color-main .color-spec { flex-wrap: wrap; gap: 4px 14px; }
+    .color-secondary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .color-secondary .swatch { min-height: 114px; padding: 18px 20px; }
+    .color-secondary .color-name { font-size: 15px; }
+    .color-columns { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; margin-top: 26px; }
+    .contrast-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 10px; }
+    .contrast-table td { padding: 8px 0; border-bottom: 1px solid #e0dad3; }
+    .contrast-table td:last-child { text-align: right; font-weight: 600; }
+    .status-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+    .color-warning { padding-left: 12px; border-left: 3px solid var(--rd-blue); font-size: 12px; margin-top: 12px; }
+    .type-columns { display: grid; grid-template-columns: 1.4fr 1fr; gap: 60px; }
+    .type-hero { background: #EAF7FF; padding: 28px 32px; margin-bottom: 24px; }
+    .type-hero h3 { font: 700 56px/1.1 var(--rd-font-display); margin-top: 18px; color: var(--rd-brand-hover); }
+    .glyphs { font: 700 34px/1.4 var(--rd-font-display); letter-spacing: .015em; margin-top: 20px; }
+    .type-body h3 { font-size: 36px; letter-spacing: -.04em; margin: 14px 0; }
+    .type-body p { font-size: 15px; line-height: 1.8; }
+    .type-weights { display: flex; gap: 28px; font-size: 12px; margin-top: 20px; }
+    .type-spec { margin-top: 28px; border-top: 1px solid #d8d0c7; }
+    .type-row { display: grid; grid-template-columns: 130px 1fr 155px; gap: 24px; padding: 11px 0; border-bottom: 1px solid #e0dad3; align-items: center; }
+    .type-row .label { color: var(--rd-muted); }
+    .type-row .type-value { font-size: 11px; text-align: right; color: var(--rd-muted); }
+    .components { display: grid; grid-template-columns: 1.5fr 1fr; gap: 46px; }
+    .component-block { margin-bottom: 27px; }
+    .button-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+    .field { margin-top: 16px; }
+    .field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+    .field .note { display: block; margin-top: 6px; }
+    .field-error { font-size: 12px; color: var(--rd-error); margin-top: 6px; }
+    .field-actions { margin-top: 14px; display: flex; align-items: center; gap: 14px; }
+    .field-actions .rd-button { min-height: 44px; padding-block: 10px; }
+    .component-aside { border-left: 1px solid #d8d0c7; padding-left: 38px; }
+    .spec-card { margin: 16px 0 18px; }
+    .spec-card > img { width: 34px; margin-bottom: 22px; }
+    .spec-card h3 { font: 700 36px/1.1 var(--rd-font-display); margin-bottom: 14px; }
+    .spec-card > p { font-size: 13px; color: var(--rd-muted); margin-bottom: 22px; }
+    .spec-card .rd-button { width: 100%; }
+    .small-spec { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+    .small-spec div { padding-top: 10px; border-top: 1px solid #ded8d1; }
+    .small-spec strong { display: block; font-size: 22px; }
+    .small-spec span { font-size: 11px; color: var(--rd-muted); }
+    .focus-sample { display: inline-flex; padding: 10px 18px; outline: 3px solid var(--rd-focus); outline-offset: 4px; border-radius: 8px; background: white; color: var(--rd-brand-hover); font-size: 12px; margin: 12px 0 12px; }
+    .foundations-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 54px; }
+    .space-scale { margin-top: 20px; }
+    .space-row { display: flex; align-items: center; gap: 14px; height: 31px; font-size: 11px; }
+    .space-row span { width: 26px; color: var(--rd-muted); }
+    .space-row i { display: block; height: 12px; background: var(--rd-brand); border-radius: 2px; }
+    .space-row em { font-style: normal; color: var(--rd-muted); font-size: 10px; }
+    .layout-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 8px; margin: 18px 0 12px; }
+    .layout-grid i { height: 74px; background: #EAF7FF; border-top: 2px solid var(--rd-brand); }
+    .radius-row { display: flex; gap: 20px; margin: 20px 0 32px; }
+    .radius-item { text-align: center; font-size: 11px; }
+    .radius-item i { width: 95px; height: 70px; display: block; background: white; border: 1px solid var(--rd-input-border); margin-bottom: 8px; }
+    .icon-row { display: flex; gap: 18px; flex-wrap: wrap; margin: 20px 0 18px; }
+    .icon-row img { width: 28px; height: 28px; }
+    .motion-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 22px 0 18px; }
+    .motion-row strong { display: block; font-size: 28px; font-weight: 500; }
+    .motion-row span { font-size: 11px; color: var(--rd-muted); }
+    .usage-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 52px; }
+    .clearspace { position: relative; height: 220px; background: #EAF7FF; display: grid; place-items: center; margin: 16px 0; }
+    .clearspace img { width: 310px; outline: 1px dashed #086288; outline-offset: 28px; }
+    .clearspace .x-label { position: absolute; top: 37px; right: 40px; font: 700 22px var(--rd-font-display); color: var(--rd-brand-hover); }
+    .usage-rules { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 22px; }
+    .usage-rules h3 { font-size: 13px; margin-bottom: 10px; }
+    .usage-rules p { font-size: 12px; line-height: 1.8; color: var(--rd-muted); }
+    .file-list { margin-top: 18px; }
+    .file-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #dfd8d0; font-size: 12px; }
+    .file-row a { color: var(--rd-brand-hover); font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+    .voice { border-top: 1px solid #d8d0c7; padding-top: 24px; margin-top: 26px; }
+    .voice p { font: 700 34px/1.2 var(--rd-font-display); color: var(--rd-brand-hover); margin: 14px 0; }
+    .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); padding: 12px 20px; max-width: calc(100% - 40px); border-radius: 8px; background: var(--rd-ink); color: white; font-size: 13px; z-index: 30; box-shadow: var(--rd-shadow); }
+    .anatomy-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: center; }
+    .anatomy-plate { display: grid; place-items: center; min-height: 420px; background: var(--rd-cream); border-radius: 16px 72px 16px 16px; }
+    .anatomy-plate img { width: 340px; }
+    .anatomy-detail { padding: 20px 0; border-bottom: 1px solid var(--rd-border); }
+    .anatomy-detail h3 { font: 700 30px/1.2 var(--rd-font-display); margin-bottom: 8px; }
+    .anatomy-detail p { font-size: 13px; color: var(--rd-muted); }
+    .anatomy-bottom { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; margin-top: 42px; padding-top: 22px; border-top: 1px solid var(--rd-border); }
+    .anatomy-bottom strong { display: block; font: 700 28px/1.3 var(--rd-font-display); margin-bottom: 8px; }
+    @media (max-width: 1100px) {
+      .sheet { padding-inline: 36px; min-height: auto; }
+      .sheet-foot { left: 36px; right: 36px; }
+      .cover-grid, .cover-bottom { gap: 32px; }
+      .cover-copy h1 { font-size: 48px; }
+      .brand-plate { height: 330px; }
+      .brand-plate > img { width: 220px; }
+      .type-columns, .components, .color-columns, .foundations-grid, .usage-grid { gap: 28px; }
+      .component-aside { padding-left: 24px; }
+      .type-hero h3 { font-size: 48px; }
+      .radius-item i { width: 75px; }
+      .micro-row { flex-wrap: wrap; }
+      .micro-row p { max-width: none; }
+    }
+    @media (max-width: 760px) {
+      html { scroll-padding-top: 105px; }
+      .toolbar { padding: 10px 20px; flex-wrap: wrap; gap: 4px 16px; }
+      .toolbar nav { width: 100%; gap: 20px; order: 3; }
+      .toolbar nav a { min-height: 44px; display: flex; align-items: center; }
+      .toolbar-brand { font-size: 11px; }
+      .download { font-size: 11px; }
+      main { padding: 12px 12px 20px; }
+      .sheet { padding: 28px 24px 75px; margin-bottom: 12px; }
+      .sheet-head { font-size: 8px; gap: 12px; margin-bottom: 26px; padding-bottom: 14px; }
+      .sheet-foot { font-size: 8px; left: 24px; right: 24px; bottom: 23px; }
+      h1, h2 { font-size: 42px; }
+      .section-title { display: block; margin-bottom: 24px; }
+      .section-title p { margin-top: 14px; font-size: 12px; }
+      .cover-grid, .cover-bottom, .logo-grid, .color-main, .color-columns, .type-columns, .components, .foundations-grid, .usage-grid { grid-template-columns: 1fr; gap: 26px; }
+      .cover .sheet-head { margin-bottom: 30px; }
+      .cover-word { margin: 14px 0 22px -6px; width: calc(100% + 6px); }
+      .cover-copy h1 { font-size: 45px; }
+      .cover-copy > p { font-size: 13px; }
+      .brand-plate { height: 290px; }
+      .brand-plate > img { width: 200px; }
+      .cover-bottom { margin-top: 32px; }
+      .cover-signature img { width: 245px; }
+      .logo-demo { height: 195px; padding: 24px; }
+      .logo-demo.horizontal img { width: 100%; }
+      .logo-demo.wordmark img { width: 100%; }
+      .logo-grid { gap: 4px; }
+      .logo-meta { font-size: 10px; }
+      .micro-row { padding: 18px; gap: 10px; }
+      .micro-row .micro-preview { width: 80px; }
+      .micro-controls { gap: 8px; min-width: 150px; }
+      .micro-controls input { min-width: 50px; }
+      .swatch { min-height: 130px; padding: 22px; }
+      .color-main { gap: 10px; }
+      .color-secondary { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .color-secondary .color-spec { font-size: 10px; }
+      .type-hero { padding: 24px; }
+      .type-hero h3 { font-size: 44px; }
+      .glyphs { font-size: 30px; overflow-wrap: anywhere; }
+      .type-row { grid-template-columns: 65px 1fr; gap: 12px; padding: 18px 0; }
+      .type-row .type-value { grid-column: 2; text-align: left; }
+      .component-aside { padding-left: 0; padding-top: 28px; border-left: none; border-top: 1px solid #d8d0c7; }
+      .components .button-row .rd-button { flex: 1; min-width: 115px; }
+      .clearspace { height: 180px; }
+      .clearspace img { width: calc(100% - 72px); outline-offset: 22px; }
+      .clearspace .x-label { top: 18px; right: 21px; }
+      .file-row { gap: 12px; font-size: 11px; }
+      .file-row a { min-height: 44px; display: flex; align-items: center; }
+      .radius-row { gap: 12px; }
+      .radius-item i { width: 78px; }
+      .anatomy-grid { grid-template-columns: 1fr; gap: 20px; }
+      .anatomy-plate { min-height: 300px; }
+      .anatomy-plate img { width: 240px; }
+      .anatomy-bottom { grid-template-columns: 1fr; gap: 20px; margin-top: 28px; }
+    }
+    @media print {
+      @page { size: 1280px 1000px; margin: 0; }
+      html { scroll-behavior: auto; }
+      body { background: white; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .toolbar, .skip, .toast { display: none !important; }
+      main { padding: 0; }
+      .sheet { width: 1280px; min-height: 1000px; height: 1000px; padding: 42px 56px 82px; margin: 0; break-after: page; }
+      .sheet:last-child { break-after: auto; }
+      .sheet-head { margin-bottom: 34px; }
+      .sheet-foot { left: 56px; right: 56px; bottom: 30px; }
+      .cover .sheet-head { margin-bottom: 42px; }
+      .cover-grid, .cover-bottom { gap: 68px; }
+      .brand-plate { height: 380px; }
+      .brand-plate > img { width: 260px; }
+      .cover-copy h1 { font-size: 58px; }
+      .type-columns { gap: 60px; }
+      .type-hero h3 { font-size: 56px; }
+      .components { gap: 46px; }
+      .component-aside { padding-left: 38px; }
+      .color-columns { gap: 48px; }
+      .foundations-grid { gap: 54px; }
+      .usage-grid { gap: 52px; }
+      .radius-item i { width: 95px; }
+      .print-static { pointer-events: none; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a href="#identity" class="skip">Lewati ke panduan</a>
+  <header class="toolbar">
+    <a class="toolbar-brand" href="#identity"><img src="logos/favicon.svg" alt="" width="32" height="32">RakanDev / Brand Kit</a>
+    <nav aria-label="Bagian panduan"><a href="#logos">Logo</a><a href="#colors">Warna</a><a href="#type">Tipografi</a><a href="#ui">Komponen</a></nav>
+    <a class="download" href="../output/pdf/rakandev-design-system.pdf" download>Panduan PDF</a>
+  </header>
+  <main>
+    <section class="sheet cover" id="identity" aria-labelledby="identity-title">
+      <div class="sheet-head"><span>RakanDev / Identitas Visual</span><span>Brand & Design System / 4.0</span></div>
+      <div class="cover-grid">
+        <div class="cover-copy">
+          <div class="label">01 / Logo Teks</div>
+          <img class="cover-word" src="logos/rakandev-wordmark-primary.svg" alt="Logo teks RakanDev" width="420" height="112">
+          <h1 id="identity-title">Ide <span class="rd-marker">berani.</span><br>Hasil <span class="rd-swash">berarti.</span></h1>
+          <p>Website & sistem untuk usaha yang punya cerita. Lettering ekspresif, warna cerah, dan sentuhan personal.</p>
+          <div class="cover-rule" aria-hidden="true"></div>
+          <p class="note">Dua inisial, satu simbol.<br>Dibentuk untuk terus melangkah.</p>
+        </div>
+        <div>
+          <div class="brand-plate">
+            <img src="logos/rakandev-mark-primary.svg" alt="Monogram R dan D menyatu dalam satu siluet teal" width="128" height="128">
+            <div class="plate-caption"><span class="label">02 / Simbol RD</span><span>Satu bentuk</span></div>
+          </div>
+          <div class="cover-detail"><img src="logos/favicon.svg" alt="Ikon aplikasi RD" width="128" height="128"><p>R: batang tegak, mangkuk, dan kaki diagonal.<br><span class="muted">D: lengkung kanan dengan batang diagonal yang sama.</span></p></div>
+        </div>
+      </div>
+      <div class="cover-bottom">
+        <div class="cover-signature"><div class="label">03 / Logo Utama</div><img src="logos/rakandev-horizontal-primary.svg" alt="Logo horizontal RakanDev" width="572" height="128"><p class="note">Simbol + wordmark. Untuk header, proposal, dan komunikasi brand.</p></div>
+        <div><div class="label">04 / Palet Utama</div><div class="palette-strip">
+          <div class="palette-piece" style="background:#086288"><span class="palette-label">Sea Teal<br>#086288</span></div>
+          <div class="palette-piece" style="background:#4D8DBA"><span class="palette-label">Harbor Blue<br>#4D8DBA</span></div>
+          <div class="palette-piece" style="background:#97D7FF"><span class="palette-label">Sky Blue<br>#97D7FF</span></div>
+          <div class="palette-piece" style="background:#FFEFC4"><span class="palette-label">Warm Cream<br>#FFEFC4</span></div>
+        </div><p class="note" style="margin-top:12px">Caveat Bold / Manrope 400, 500, 600<br>Wordmark dengan spasi optis & terminal khas.</p></div>
+      </div>
+      <div class="sheet-foot"><span>Logo / Wordmark / Visual Foundations</span><span>13 Oktober 2026 / 01</span></div>
+    </section>
+
+    <section class="sheet" id="logos" aria-labelledby="logos-title">
+      <div class="sheet-head"><span>RakanDev / Sistem Logo</span><span>Identitas / 02</span></div>
+      <div class="section-title"><h2 id="logos-title">R & D.<br>Satu tanda.</h2><p>Mangkuk R bertemu lengkung D. Kaki diagonal R sekaligus menjadi batang D; dua ruang negatif menjaga keduanya terbaca. Semua varian memakai satu warna.</p></div>
+      <div class="logo-grid">
+        <div><div class="logo-demo horizontal"><span class="label">Horizontal / Primary</span><img src="logos/rakandev-horizontal-primary.svg" alt="Logo horizontal utama" width="572" height="128"></div><div class="logo-meta"><span>Header & dokumen</span><span>Min. 180px / 45mm</span></div></div>
+        <div><div class="logo-demo symbol"><span class="label">Simbol / Primary</span><img src="logos/rakandev-mark-primary.svg" alt="Simbol utama RD menyatu" width="128" height="128"></div><div class="logo-meta"><span>Avatar & identitas ringkas</span><span>Min. 24px / 10mm</span></div></div>
+        <div><div class="logo-demo wordmark"><span class="label">Wordmark / Primary</span><img src="logos/rakandev-wordmark-primary.svg" alt="Logo teks RakanDev satu warna teal" width="420" height="112"></div><div class="logo-meta"><span>Logo teks, tanpa simbol</span><span>Min. 120px / 30mm</span></div></div>
+        <div><div class="logo-demo dark"><span class="label">Horizontal / Primary</span><img src="logos/rakandev-horizontal-primary.svg" alt="Logo RakanDev teal pada latar cream" width="572" height="128"></div><div class="logo-meta"><span>Sea Teal di atas Warm Cream</span><span>Satu warna</span></div></div>
+      </div>
+      <div class="micro-row print-static">
+        <div class="micro-preview"><img id="micro-logo" src="logos/rakandev-mark-primary.svg" width="24" height="24" alt="Simbol RD untuk ukuran kecil" style="width:24px"></div>
+        <div class="micro-controls"><label for="logo-size">Uji ukuran</label><input id="logo-size" type="range" min="16" max="64" value="24"><output for="logo-size" id="logo-size-value">24px</output></div>
+        <p class="note">16-23px memakai versi mikro dengan ruang negatif lebih lega. Mulai 24px memakai detail utama. Keduanya satu warna.</p>
+      </div>
+      <div class="sheet-foot"><span>SVG Master / PNG Transparan / Monokrom</span><span>RakanDev / 02</span></div>
+    </section>
+
+    <section class="sheet" id="colors" aria-labelledby="colors-title">
+      <div class="sheet-head"><span>RakanDev / Warna</span><span>Visual Foundations / 03</span></div>
+      <div class="section-title"><h2 id="colors-title">Cerah.<br>Berani tampil.</h2><p>Empat warna mengikuti palet pilihanmu. Sea Teal untuk logo dan tindakan; Harbor Blue, Sky Blue, serta Warm Cream untuk permukaan dan aksen. Klik swatch untuk menyalin HEX.</p></div>
+      <div class="color-main">
+        <button class="swatch" data-color="#086288" style="--swatch:#086288" aria-label="Salin warna Sea Teal #086288"><span class="color-chip" aria-hidden="true"></span><span class="color-name">Sea Teal</span><span class="color-spec"><span>#086288</span><span>Logo & CTA</span></span><span class="copy-note">Klik untuk salin HEX</span></button>
+        <button class="swatch" data-color="#4D8DBA" style="--swatch:#4D8DBA" aria-label="Salin warna Harbor Blue #4D8DBA"><span class="color-chip" aria-hidden="true"></span><span class="color-name">Harbor Blue</span><span class="color-spec"><span>#4D8DBA</span><span>Aksen & garis</span></span><span class="copy-note">Klik untuk salin HEX</span></button>
+        <button class="swatch" data-color="#97D7FF" style="--swatch:#97D7FF" aria-label="Salin warna Sky Blue #97D7FF"><span class="color-chip" aria-hidden="true"></span><span class="color-name">Sky Blue</span><span class="color-spec"><span>#97D7FF</span><span>Bidang terang</span></span><span class="copy-note">Klik untuk salin HEX</span></button>
+        <button class="swatch" data-color="#FFEFC4" style="--swatch:#FFEFC4" aria-label="Salin warna Warm Cream #FFEFC4"><span class="color-chip" aria-hidden="true"></span><span class="color-name">Warm Cream</span><span class="color-spec"><span>#FFEFC4</span><span>Permukaan hangat</span></span><span class="copy-note">Klik untuk salin HEX</span></button>
+      </div>
+      <div class="color-secondary">
+        <button class="swatch" data-color="#EAF7FF" style="background:#EAF7FF;color:#086288" aria-label="Salin warna Cloud #EAF7FF"><span class="color-name">Cloud</span><span class="color-spec">#EAF7FF</span></button>
+        <button class="swatch" data-color="#F4FBFF" style="background:#F4FBFF;color:#086288;border:1px solid #CDE4EE" aria-label="Salin warna Mist #F4FBFF"><span class="color-name">Mist</span><span class="color-spec">#F4FBFF</span></button>
+        <button class="swatch" data-color="#FFFFFF" style="background:#FFFFFF;color:#086288;border:1px solid #CDE4EE" aria-label="Salin warna White #FFFFFF"><span class="color-name">White</span><span class="color-spec">#FFFFFF</span></button>
+      </div>
+      <div class="color-columns">
+        <div><div class="label">Kontras Terverifikasi</div><table class="contrast-table" aria-label="Rasio kontras warna"><tbody><tr><td>Sea Teal / White</td><td>6.75:1</td></tr><tr><td>Sea Teal / Warm Cream</td><td>5.91:1</td></tr><tr><td>Hover / Cloud</td><td>8.33:1</td></tr><tr><td>Harbor Blue / White</td><td>3.60:1</td></tr></tbody></table></div>
+        <div><div class="label">Status Memiliki Arti</div><div class="status-list"><span class="rd-badge rd-badge--success">Tersimpan</span><span class="rd-badge rd-badge--warning">Perlu ditinjau</span><span class="rd-badge rd-badge--error">Belum lengkap</span><span class="rd-badge rd-badge--info">Informasi</span></div><p class="note">Label selalu menyertai warna. Teks normal minimal 4.5:1; batas kontrol bermakna minimal 3:1.</p><p class="color-warning">Harbor Blue di atas putih cocok untuk garis dan teks besar. Body memakai Sea Teal di atas white atau cream.</p></div>
+      </div>
+      <div class="sheet-foot"><span>Sea Teal / Harbor Blue / Sky Blue / Warm Cream</span><span>RakanDev / 03</span></div>
+    </section>
+
+    <section class="sheet" id="type" aria-labelledby="type-title">
+      <div class="sheet-head"><span>RakanDev / Tipografi</span><span>Visual Foundations / 04</span></div>
+      <div class="section-title"><h2 id="type-title">Punya karakter.<br><span class="rd-swash">Punya cerita.</span></h2><p>Caveat Bold membawa energi tulisan tangan seperti headline Odoo. Manrope mendampingi rincian dan navigasi; wordmark memakai outline yang disesuaikan.</p></div>
+      <div class="type-columns">
+        <div class="type-hero"><div class="label">Caveat / Bold 700</div><h3>Berani mulai.<br>Siap <span class="rd-swash">berkembang.</span></h3><p class="glyphs">Aa Bb Cc Dd Ee Ff<br>0123456789</p><p class="note" style="margin-top:14px">Untuk headline dan pesan pendek.<br>Satu sapuan aksen per kelompok teks.</p></div>
+        <div class="type-body"><div class="label">Manrope / 400, 500, 600</div><h3>Aa Bb Cc</h3><p>Website yang baik membuat orang cepat memahami usahamu. Struktur yang jelas membantu mereka mengambil langkah berikutnya.</p><div class="type-weights"><span>Regular</span><span style="font-weight:500">Medium</span><span style="font-weight:600">Semibold</span></div><p class="note" style="margin-top:22px">Body 16px / line height 1.65.<br>Lebar teks ideal 60-70 karakter.<br>Input mobile minimal 16px.</p></div>
+      </div>
+      <div class="type-spec">
+        <div class="type-row"><span class="label">Headline</span><span style="font:700 46px/1.08 var(--rd-font-display)">Untuk usahamu.</span><span class="type-value">52-88px / Caveat 700</span></div>
+        <div class="type-row"><span class="label">Subheading</span><span style="font-size:24px;font-weight:600">Mulai dari kebutuhan.</span><span class="type-value">24px / Manrope 600</span></div>
+        <div class="type-row"><span class="label">Body</span><span style="font-size:16px">Rincian yang mudah dipahami.</span><span class="type-value">16px / Manrope 400</span></div>
+        <div class="type-row"><span class="label">Label</span><span style="font-size:14px;font-weight:600">Konsultasi kebutuhan</span><span class="type-value">14px / Manrope 600</span></div>
+      </div>
+      <div class="sheet-foot"><span>SIL Open Font License / WOFF2 Lokal</span><span>RakanDev / 04</span></div>
+    </section>
+
+    <section class="sheet" id="ui" aria-labelledby="ui-title">
+      <div class="sheet-head"><span>RakanDev / Komponen</span><span>Interface System / 05</span></div>
+      <div class="section-title"><h2 id="ui-title">Tegas dalam aksi.<br>Ringan digunakan.</h2><p>Komponen memakai warna cerah dan permukaan terang. Formulir berikut memperlihatkan validasi dan status secara lokal.</p></div>
+      <div class="components">
+        <div>
+          <div class="component-block"><div class="label">Tombol / Default, Secondary, Disabled</div><div class="button-row"><button class="rd-button rd-button--primary" type="button" data-demo-action>Konsultasi<img src="icons/arrow-right.svg" alt="" width="18" height="18"></button><button class="rd-button rd-button--secondary" type="button" data-demo-action>Lihat demo</button><button class="rd-button" type="button" disabled>Belum tersedia</button></div></div>
+          <div class="component-block"><div class="label">Field / Label & Helper Text</div><form id="example-form" novalidate><div class="field"><label for="business">Nama usaha</label><input class="rd-input" id="business" name="business" placeholder="Contoh: Studio Nara" aria-describedby="business-hint business-error" required><span class="note" id="business-hint">Gunakan nama yang dikenal pelangganmu.</span><p class="field-error" id="business-error" hidden>Isi nama usaha untuk melanjutkan.</p></div><div class="field-actions"><button class="rd-button rd-button--secondary" type="submit">Coba validasi</button><span class="note" id="form-status" role="status" aria-live="polite"></span></div></form></div>
+          <div class="component-block"><div class="label">Field / Error</div><div class="field"><label for="example-email">Email</label><input id="example-email" class="rd-input" type="email" value="studio@" aria-invalid="true" aria-describedby="email-error"><p class="field-error" id="email-error">Gunakan email lengkap, misalnya halo@studio.id.</p></div></div>
+          <div><div class="label">Status / Selalu Dengan Label</div><div class="status-list"><span class="rd-badge rd-badge--success">Tersimpan</span><span class="rd-badge rd-badge--warning">Perlu ditinjau</span><span class="rd-badge rd-badge--error">Belum lengkap</span></div></div>
+        </div>
+        <aside class="component-aside">
+          <div class="label">Kartu / Contoh Layanan</div>
+          <article class="rd-card spec-card"><img src="icons/landing.svg" alt="" width="34" height="34"><h3>Website untuk<br>usahamu.</h3><p>Satu tujuan utama, isi yang terarah, dan tampilan yang mudah dipahami.</p><button class="rd-button rd-button--primary" type="button" data-demo-action>Bahas kebutuhan</button></article>
+          <div class="small-spec"><div><strong>48px</strong><span>Tinggi tombol & input</span></div><div><strong>44px</strong><span>Minimum target sentuh</span></div><div><strong>8px</strong><span>Radius kontrol</span></div><div><strong>12px</strong><span>Radius kartu</span></div></div>
+          <div class="focus-sample">Focus terlihat</div><p class="note">Outline 3px biru, offset 4px. Batas input memakai #4D8DBA agar jelas di atas putih.</p>
+        </aside>
+      </div>
+      <div class="sheet-foot"><span>Focus / Error / Disabled / Status / Touch Targets</span><span>RakanDev / 05</span></div>
+    </section>
+
+    <section class="sheet" id="foundations" aria-labelledby="foundations-title">
+      <div class="sheet-head"><span>RakanDev / Struktur</span><span>Interface System / 06</span></div>
+      <div class="section-title"><h2 id="foundations-title">Ruang yang lega.<br>Ritme yang konsisten.</h2><p>Grid 4px sebagai dasar. Koreksi optis diperbolehkan untuk lettering dan ilustrasi. Struktur menyesuaikan isi serta layar.</p></div>
+      <div class="foundations-grid">
+        <div><div class="label">Spacing / Skala 4px</div><div class="space-scale">
+          <div class="space-row"><span>4</span><i style="width:8px"></i><em>detail kecil</em></div>
+          <div class="space-row"><span>8</span><i style="width:16px"></i><em>label ke input</em></div>
+          <div class="space-row"><span>12</span><i style="width:24px"></i><em>ikon ke teks</em></div>
+          <div class="space-row"><span>16</span><i style="width:32px"></i><em>isi kelompok</em></div>
+          <div class="space-row"><span>24</span><i style="width:48px"></i><em>gap kartu</em></div>
+          <div class="space-row"><span>32</span><i style="width:64px"></i><em>gutter desktop</em></div>
+          <div class="space-row"><span>48</span><i style="width:96px"></i><em>kelompok konten</em></div>
+          <div class="space-row"><span>64</span><i style="width:128px"></i><em>section mobile</em></div>
+          <div class="space-row"><span>96</span><i style="width:192px"></i><em>section desktop</em></div>
+        </div><div class="label" style="margin-top:28px">Grid / 12 Kolom Desktop</div><div class="layout-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p class="note">Container 1200px. Gutter 32px desktop / 20px mobile.<br>8 kolom tablet, 4 kolom mobile. Breakpoint 760 / 1100px.</p></div>
+        <div><div class="label">Bentuk / Radius</div><div class="radius-row"><div class="radius-item"><i style="border-radius:8px"></i>8px / Kontrol</div><div class="radius-item"><i style="border-radius:12px"></i>12px / Kartu</div><div class="radius-item"><i style="border-radius:18px"></i>18px / Preview</div></div><div class="label">Ikon / Garis Membulat</div><div class="icon-row"><img src="icons/landing.svg" alt="Website" width="28" height="28"><img src="icons/portfolio.svg" alt="Portofolio" width="28" height="28"><img src="icons/profile.svg" alt="Profil usaha" width="28" height="28"><img src="icons/custom.svg" alt="Custom" width="28" height="28"><img src="icons/finance.svg" alt="Keuangan" width="28" height="28"><img src="icons/people.svg" alt="Tim" width="28" height="28"></div><p class="note">Master 24px. Stroke 1.7-1.8px. Warna ink.<br>Kurva besar dan bidang cream hanya menandai bagian penting.</p><div class="label" style="margin-top:32px">Motion / Dengan Tujuan</div><div class="motion-row"><div><strong>150</strong><span>ms / feedback</span></div><div><strong>200</strong><span>ms / transisi</span></div><div><strong>400</strong><span>ms / reveal</span></div></div><p class="note">Easing cubic-bezier(.16, 1, .3, 1). Reveal maksimal 8px. Reduced motion menghapus pergerakan. Hindari animasi terus-menerus pada logo dan CTA.</p></div>
+      </div>
+      <div class="sheet-foot"><span>Spacing / Layout / Radius / Ikon / Motion</span><span>RakanDev / 06</span></div>
+    </section>
+
+    <section class="sheet" id="usage" aria-labelledby="usage-title">
+      <div class="sheet-head"><span>RakanDev / Penggunaan</span><span>Brand Guidelines / 07</span></div>
+      <div class="section-title"><h2 id="usage-title">Jaga karakter.<br>Gunakan dengan tepat.</h2><p>Master SVG menjadi sumber utama. PNG untuk dokumen dan aplikasi raster. Gunakan versi yang sesuai latar serta ukuran.</p></div>
+      <div class="usage-grid">
+        <div><div class="label">Clear Space / x = Lebar Batang R</div><div class="clearspace"><img src="logos/rakandev-horizontal-primary.svg" alt="Ruang bebas di sekitar logo horizontal" width="572" height="128"><span class="x-label">x</span></div><p class="note">Sisakan ruang minimal x dari tepi artwork. x = lebar batang R: 20 unit pada master 128px. Tambahkan ruang di luar margin transparan SVG.</p><div class="usage-rules"><div><h3 style="color:var(--rd-success)">Gunakan</h3><p>Proporsi asli.<br>Teal di latar terang.<br>Cream di atas Sea Teal.<br>Mikro di bawah 24px.</p></div><div><h3 style="color:var(--rd-error)">Hindari</h3><p>Memisahkan R dan D.<br>Distorsi atau rotasi.<br>Warna di luar varian.<br>Dua warna pada satu logo.</p></div></div></div>
+        <div><div class="label">Berkas / Siap Digunakan</div><div class="file-list"><div class="file-row"><span>Logo utama / SVG</span><a href="logos/rakandev-horizontal-primary.svg" download>Unduh</a></div><div class="file-row"><span>Simbol RD / PNG transparan</span><a href="logos/rakandev-mark-primary.png" download>Unduh</a></div><div class="file-row"><span>Logo teks / PNG transparan</span><a href="logos/rakandev-wordmark-primary.png" download>Unduh</a></div><div class="file-row"><span>CSS tokens & komponen</span><a href="design-system.css" download>Unduh</a></div><div class="file-row"><span>Design tokens / JSON</span><a href="tokens.json" download>Unduh</a></div><div class="file-row"><span>Panduan lengkap / Markdown</span><a href="design-system.md" download>Unduh</a></div></div><div class="voice"><div class="label">Bahasa Brand / Berani, Jelas, Membumi</div><p>"Mulai dari kebutuhanmu."</p><span class="note">Jelaskan manfaat, scope, dan tindakan. Gunakan kata yang dikenal pemilik usaha. Nama brand ditulis RakanDev.</span></div><p class="note" style="margin-top:24px">Wordmark berbasis Caveat Bold: spasi optis, kontur diperlebar 8%, terminal v memanjang. Caveat & Manrope berlisensi SIL OFL 1.1.</p></div>
+      </div>
+      <div class="sheet-foot"><span>Ide Berani. Hasil Berarti.</span><span>RakanDev / 07</span></div>
+    </section>
+    <section class="sheet" id="anatomy" aria-labelledby="anatomy-title">
+      <div class="sheet-head"><span>RakanDev / Anatomi Monogram</span><span>Logo Details / 08</span></div>
+      <div class="section-title"><h2 id="anatomy-title">Dua huruf.<br>Satu alur.</h2><p>Prinsip huruf menyatu dari referensi diterapkan ke R dan D. Keduanya berbagi struktur; ruang negatif menjaga identitas setiap huruf.</p></div>
+      <div class="anatomy-grid">
+        <div class="anatomy-plate"><img src="logos/rakandev-mark-primary.svg" width="128" height="128" alt="Detail monogram: mangkuk R di kiri atas, lengkung D di kanan bawah"></div>
+        <div>
+          <div class="anatomy-detail"><h3>R / Kiri atas</h3><p>Batang tegak dan mangkuk atas membentuk R. Kaki diagonal meneruskan gerak ke kanan bawah.</p></div>
+          <div class="anatomy-detail"><h3>D / Kanan bawah</h3><p>Lengkung luar D bertemu diagonal R. Batang bersama ini membuat kedua huruf saling mengunci.</p></div>
+          <div class="anatomy-detail"><h3>Ruang negatif / Dua</h3><p>Mangkuk R dan rongga D berbeda arah. Keduanya tetap terbuka dalam versi satu warna.</p></div>
+        </div>
+      </div>
+      <div class="anatomy-bottom">
+        <div><strong>Satu warna</strong><p class="note">Sea Teal #086288. Cream atau white untuk versi inverse; satu warna per pemakaian.</p></div>
+        <div><strong>Satu kontur</strong><p class="note">Sambungan halus, sudut membulat, dan ketebalan yang dikoreksi secara optis.</p></div>
+        <div><strong>16px / Mikro</strong><p class="note">Ruang negatif diperbesar pada ukuran kecil. Siluet dan arah huruf dipertahankan.</p></div>
+      </div>
+      <div class="sheet-foot"><span>Interlock / Ruang Negatif / Kontur Halus</span><span>RakanDev / 08</span></div>
+    </section>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script>
+    let toastTimer;
+    const toast = document.getElementById('toast');
+    function announce(message) {
+      clearTimeout(toastTimer);
+      toast.textContent = message;
+      toast.hidden = false;
+      toastTimer = setTimeout(() => { toast.hidden = true; }, 3200);
+    }
+    document.querySelectorAll('[data-color]').forEach(button => {
+      button.addEventListener('click', async () => {
+        const color = button.dataset.color;
+        try { await navigator.clipboard.writeText(color); announce(color + ' disalin.'); }
+        catch { announce('Kode warna: ' + color + '. Salin langsung dari swatch.'); }
+      });
+    });
+    const range = document.getElementById('logo-size');
+    range.addEventListener('input', () => {
+      const size = Number(range.value);
+      const image = document.getElementById('micro-logo');
+      image.src = size < 24 ? 'logos/rakandev-mark-micro.svg' : 'logos/rakandev-mark-primary.svg';
+      image.style.width = size + 'px';
+      image.width = size;
+      image.height = size;
+      document.getElementById('logo-size-value').value = size + 'px';
+    });
+    document.querySelectorAll('[data-demo-action]').forEach(button => button.addEventListener('click', () => announce('Contoh tombol RakanDev. Interaksi berjalan.')));
+    const form = document.getElementById('example-form');
+    const input = document.getElementById('business');
+    const error = document.getElementById('business-error');
+    const status = document.getElementById('form-status');
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const invalid = !input.value.trim();
+      input.setAttribute('aria-invalid', String(invalid));
+      error.hidden = !invalid;
+      status.textContent = invalid ? '' : 'Nama usaha sudah lengkap.';
+      if (invalid) input.focus();
+    });
+    input.addEventListener('input', () => {
+      status.textContent = '';
+      if (input.value.trim()) { input.removeAttribute('aria-invalid'); error.hidden = true; }
+    });
+  </script>
+</body>
+</html>

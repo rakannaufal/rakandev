@@ -1,0 +1,59 @@
+{
+  "projectId": "79710a3f-f622-4e7e-a25c-0377735727a6",
+  "draftId": "693800ec-f6ad-4a19-a0ab-4510bcfcae85",
+  "version": 7,
+  "canvas": "https://superdesign.dev/teams/339e816c-5568-46e0-be69-57bf55ef8ee0/projects/79710a3f-f622-4e7e-a25c-0377735727a6",
+  "preview": "https://p.superdesign.dev/draft/693800ec-f6ad-4a19-a0ab-4510bcfcae85",
+  "brandVersion": "4.0.0",
+  "referenceNodes": [
+    "5e62c0c0-fd1d-4501-af20-f8698857dc9d",
+    "3f87394a-0cfa-418d-bcbe-4530248a8b91"
+  ],
+  "logoAssets": [
+    {
+      "file": "logos/rakandev-mark-primary.svg",
+      "assetKey": "brand-logos-rakandev-mark-primary.svg",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-logos-rakandev-mark-primary.svg/rakandev-mark-primary.svg",
+      "sha256": "0c2ddc739ee406faa3986f4a3f0c631674d14307f462423e7475449b95208f64"
+    },
+    {
+      "file": "logos/rakandev-wordmark-primary.svg",
+      "assetKey": "brand-logos-rakandev-wordmark-primary.svg",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-logos-rakandev-wordmark-primary.svg/rakandev-wordmark-primary.svg",
+      "sha256": "fc41924725313d56f6125ed869c682ec6aed46c9ddf6f7ec15c5b109c1b76836"
+    },
+    {
+      "file": "logos/rakandev-horizontal-primary.svg",
+      "assetKey": "brand-logos-rakandev-horizontal-primary.svg",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-logos-rakandev-horizontal-primary.svg/rakandev-horizontal-primary.svg",
+      "sha256": "ae8c4f42b025d685217d1c6d5c5937b03d10a72138b5cacab6ba50f7eb60262e"
+    }
+  ],
+  "fontAssets": [
+    {
+      "file": "fonts/caveat-latin-700-normal.woff2",
+      "assetKey": "brand-fonts-caveat-latin-700-normal.woff2",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-fonts-caveat-latin-700-normal.woff2/caveat-latin-700-normal.woff2",
+      "sha256": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+    },
+    {
+      "file": "fonts/manrope-latin-400-normal.woff2",
+      "assetKey": "brand-fonts-manrope-latin-400-normal.woff2",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-fonts-manrope-latin-400-normal.woff2/manrope-latin-400-normal.woff2",
+      "sha256": "849290ef12a2eeb9af5c11924120d11aa4ae8b435ed3347d7fc8bc240c293ca3"
+    },
+    {
+      "file": "fonts/manrope-latin-500-normal.woff2",
+      "assetKey": "brand-fonts-manrope-latin-500-normal.woff2",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-fonts-manrope-latin-500-normal.woff2/manrope-latin-500-normal.woff2",
+      "sha256": "19874318747181a650eda439c37955220b849d9c4797c9e0718ee67d4bf929bc"
+    },
+    {
+      "file": "fonts/manrope-latin-600-normal.woff2",
+      "assetKey": "brand-fonts-manrope-latin-600-normal.woff2",
+      "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/79710a3f-f622-4e7e-a25c-0377735727a6/brand-assets/brand-fonts-manrope-latin-600-normal.woff2/manrope-latin-600-normal.woff2",
+      "sha256": "f7ac6258da20ab7541939b59851155753d1d24f1b30cbcb949077a3faa3d1593"
+    }
+  ],
+  "typographyReference": "https://www.odoo.com/"
+}

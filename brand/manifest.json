@@ -1,0 +1,207 @@
+{
+  "brand": "RakanDev",
+  "version": "4.0.0",
+  "created": "2026-10-13",
+  "monogram": "R bowl above; R diagonal is D stem; D sweep below right; one compound path.",
+  "palette": [
+    "#086288",
+    "#4D8DBA",
+    "#97D7FF",
+    "#FFEFC4"
+  ],
+  "letteringSource": "Caveat Bold, SIL OFL 1.1; outlined lettering, optical spacing, 8% wider contours and extended rising v terminal. Inspired by Odoo headline typography.",
+  "assets": [
+    {
+      "name": "rakandev-mark-primary",
+      "svg": "logos/rakandev-mark-primary.svg",
+      "png": "logos/rakandev-mark-primary.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "variant": "primary",
+      "type": "mark"
+    },
+    {
+      "name": "rakandev-wordmark-primary",
+      "svg": "logos/rakandev-wordmark-primary.svg",
+      "png": "logos/rakandev-wordmark-primary.png",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "transparent": true,
+      "variant": "primary",
+      "type": "wordmark"
+    },
+    {
+      "name": "rakandev-horizontal-primary",
+      "svg": "logos/rakandev-horizontal-primary.svg",
+      "png": "logos/rakandev-horizontal-primary.png",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "transparent": true,
+      "variant": "primary",
+      "type": "horizontal"
+    },
+    {
+      "name": "rakandev-stacked-primary",
+      "svg": "logos/rakandev-stacked-primary.svg",
+      "png": "logos/rakandev-stacked-primary.png",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "transparent": true,
+      "variant": "primary",
+      "type": "stacked"
+    },
+    {
+      "name": "rakandev-mark-blue",
+      "svg": "logos/rakandev-mark-blue.svg",
+      "png": "logos/rakandev-mark-blue.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "variant": "blue",
+      "type": "mark"
+    },
+    {
+      "name": "rakandev-wordmark-blue",
+      "svg": "logos/rakandev-wordmark-blue.svg",
+      "png": "logos/rakandev-wordmark-blue.png",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "transparent": true,
+      "variant": "blue",
+      "type": "wordmark"
+    },
+    {
+      "name": "rakandev-horizontal-blue",
+      "svg": "logos/rakandev-horizontal-blue.svg",
+      "png": "logos/rakandev-horizontal-blue.png",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "transparent": true,
+      "variant": "blue",
+      "type": "horizontal"
+    },
+    {
+      "name": "rakandev-stacked-blue",
+      "svg": "logos/rakandev-stacked-blue.svg",
+      "png": "logos/rakandev-stacked-blue.png",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "transparent": true,
+      "variant": "blue",
+      "type": "stacked"
+    },
+    {
+      "name": "rakandev-mark-cream",
+      "svg": "logos/rakandev-mark-cream.svg",
+      "png": "logos/rakandev-mark-cream.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "variant": "cream",
+      "type": "mark"
+    },
+    {
+      "name": "rakandev-wordmark-cream",
+      "svg": "logos/rakandev-wordmark-cream.svg",
+      "png": "logos/rakandev-wordmark-cream.png",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "transparent": true,
+      "variant": "cream",
+      "type": "wordmark"
+    },
+    {
+      "name": "rakandev-horizontal-cream",
+      "svg": "logos/rakandev-horizontal-cream.svg",
+      "png": "logos/rakandev-horizontal-cream.png",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "transparent": true,
+      "variant": "cream",
+      "type": "horizontal"
+    },
+    {
+      "name": "rakandev-stacked-cream",
+      "svg": "logos/rakandev-stacked-cream.svg",
+      "png": "logos/rakandev-stacked-cream.png",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "transparent": true,
+      "variant": "cream",
+      "type": "stacked"
+    },
+    {
+      "name": "rakandev-mark-white",
+      "svg": "logos/rakandev-mark-white.svg",
+      "png": "logos/rakandev-mark-white.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "variant": "white",
+      "type": "mark"
+    },
+    {
+      "name": "rakandev-wordmark-white",
+      "svg": "logos/rakandev-wordmark-white.svg",
+      "png": "logos/rakandev-wordmark-white.png",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "transparent": true,
+      "variant": "white",
+      "type": "wordmark"
+    },
+    {
+      "name": "rakandev-horizontal-white",
+      "svg": "logos/rakandev-horizontal-white.svg",
+      "png": "logos/rakandev-horizontal-white.png",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "transparent": true,
+      "variant": "white",
+      "type": "horizontal"
+    },
+    {
+      "name": "rakandev-stacked-white",
+      "svg": "logos/rakandev-stacked-white.svg",
+      "png": "logos/rakandev-stacked-white.png",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "transparent": true,
+      "variant": "white",
+      "type": "stacked"
+    }
+  ]
+}

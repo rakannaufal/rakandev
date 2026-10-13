@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "scope": "Commerce planning prototype only; no live payment connection",
+  "checks": [
+    "30 responsive/theme/view combinations without horizontal overflow",
+    "Cart quantity, removal, subtotal and checkout total remain consistent",
+    "Pending, successful, expired and retry payment simulation",
+    "Marketplace search, empty state, category, merchant and order total",
+    "Keyboard tabs, dialog dismissal and focus restoration",
+    "All local fonts/images load"
+  ],
+  "pageErrors": [],
+  "failedRequests": []
+}

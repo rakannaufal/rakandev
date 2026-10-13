@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210" role="img" aria-label="Ilustrasi demo, bukan kode pembayaran">
+  <rect width="210" height="210" fill="#fff"/>
+  <g fill="#293b32">
+    <path d="M12 12h50v50H12zm8 8v34h34V20zm128-8h50v50h-50zm8 8v34h34V20zM12 148h50v50H12zm8 8v34h34v-34z" fill-rule="evenodd"/>
+    <path d="M28 28h18v18H28zm136 0h18v18h-18zM28 164h18v18H28zM80 14h12v24H80zm24 12h24v12h-24zM80 50h24v12H80zm36 0h12v24h-12zM14 82h24v12H14zm36-10h12v36H50zm22 14h24v12H72zm82-12h12v24h-12zm24 12h20v12h-20zM14 112h36v12H14zm48 12h12v12H62zm88-12h12v24h-12zm26 2h24v12h-24zM82 150h12v24H82zm24 18h24v12h-24zm-26 20h24v12H80zm66-34h24v12h-24zm36-12h12v36h-12zm-32 38h12v20h-12zm28 12h24v12h-24z"/>
+  </g>
+  <path d="M70 76h70v60H70z" fill="#fff"/>
+  <path d="m76 131 60-54" stroke="#b63725" stroke-width="8"/>
+</svg>

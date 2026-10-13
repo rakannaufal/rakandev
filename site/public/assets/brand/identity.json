@@ -1,0 +1,13 @@
+{
+  "brand": "RakanDev",
+  "version": "supplied-png-2026-10-13",
+  "palette": [
+    "#086288",
+    "#4D8DBA",
+    "#97D7FF",
+    "#FFEFC4"
+  ],
+  "source": "RakanDev-Logo-Assets",
+  "preferredLogo": "/assets/brand/rakandev-logo.webp",
+  "preferredSymbol": "/assets/brand/rakandev-symbol.webp"
+}

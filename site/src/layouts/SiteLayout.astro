@@ -1,0 +1,45 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/brand/design-system.css';
+import '@fontsource/space-grotesk/latin-500.css';
+import '@fontsource/space-grotesk/latin-600.css';
+import '@fontsource/space-grotesk/latin-700.css';
+import '@fontsource/manrope/latin-700.css';
+import '@fontsource/cormorant-garamond/latin-500.css';
+import '@fontsource/cormorant-garamond/latin-600.css';
+import '../styles/global.css';
+import '../styles/demo.css';
+import '../styles/redesign.css';
+import '../styles/website-demos.css';
+import '../styles/brand-integration.css';
+import '../styles/experience.css';
+import '../styles/commerce.css';
+import '../styles/hero-carousel.css';
+const { title = 'Website untuk Bisnismu | RakanDev', description = 'Website mulai Rp300.000, pricing jelas, 30 demo, dan sistem operasional sesuai kebutuhanmu.', demo = false, noindex = demo } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url.origin).href;
+const og = new URL('/assets/social/rakandev-og.png', Astro.site || Astro.url.origin).href;
+---
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <title>{title}</title><meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+    <meta property="og:type" content="website" /><meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:url" content={canonical} /><meta property="og:image" content={og} /><meta property="og:locale" content="id_ID" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32.png?v=rd-20261013" /><link rel="icon" type="image/png" sizes="192x192" href="/assets/brand/favicon-192.png?v=rd-20261013" /><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png?v=rd-20261013" />
+  </head>
+  <body class:list={{ 'demo-body': demo }}>
+    <noscript><p class="noscript-note">Aktifkan JavaScript untuk filter, estimasi harga, ringkasan konsultasi, dan interaksi demo. Harga serta rincian layanan tetap dapat dibaca.</p></noscript>
+    <a class="skip-link" href="#main">Lewati ke konten</a>
+    {!demo && <Header />}
+    <main id="main"><slot /></main>
+    {!demo && <Footer />}
+    <div class="toast" role="status" aria-live="polite" data-toast hidden></div>
+    <script>import '../scripts/main.js';</script>
+  </body>
+</html>

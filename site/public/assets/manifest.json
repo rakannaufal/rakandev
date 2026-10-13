@@ -1,0 +1,2794 @@
+{
+  "brand": "RakanDev",
+  "created": "2026-10-13",
+  "assets": [
+    {
+      "file": "/assets/doodles/highlight-website.svg",
+      "alt": "",
+      "dimensions": [
+        240,
+        40
+      ],
+      "purpose": "decoration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/doodles/highlight-bisnismu.svg",
+      "alt": "",
+      "dimensions": [
+        255,
+        40
+      ],
+      "purpose": "decoration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/doodles/underline-blue.svg",
+      "alt": "",
+      "dimensions": [
+        240,
+        24
+      ],
+      "purpose": "decoration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/doodles/price-arrow.svg",
+      "alt": "",
+      "dimensions": [
+        140,
+        115
+      ],
+      "purpose": "decoration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/doodles/hero-divider.svg",
+      "alt": "",
+      "dimensions": [
+        1200,
+        120
+      ],
+      "purpose": "decoration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/landing.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/portfolio.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/profile.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/custom.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/plus.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/finance.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/people.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/customers.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/supply-chain.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/operations.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/controls.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/analytics.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/platform.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/accounting.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/hr-payroll.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/sales.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/procurement-inventory.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/manufacturing.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/crm.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/projects.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/quality.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/maintenance.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/budget.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/cash-bank.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/tax.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/documents.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/approval.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/after-sales.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/pos.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/ecommerce.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/customer-portal.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/supplier-portal.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/employee-portal.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/fleet.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/contracts.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/compliance.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/administration.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/integrations.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/sector.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/arrow-right.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/search.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/close.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/menu.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/play.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/reset.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/checkmark.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/download.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/cart.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/icons/copy.svg",
+      "alt": "",
+      "dimensions": [
+        24,
+        24
+      ],
+      "purpose": "ui-icon",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/illustrations/website-usaha.svg",
+      "alt": "Ilustrasi original laptop dengan sketsa website dan tanaman",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "illustration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/illustrations/modul-tersusun.svg",
+      "alt": "Ilustrasi modul keuangan, stok, tim, dan laporan yang saling terhubung",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "illustration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/illustrations/kolaborasi.svg",
+      "alt": "Dua figur berkolaborasi menyusun sketsa proyek",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "illustration",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/interior-01.svg",
+      "alt": "Ruang interior ilustratif original dengan sofa, cahaya jendela, dan tanaman",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/interior-02.svg",
+      "alt": "Ruang interior ilustratif original dengan sofa, cahaya jendela, dan tanaman",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/interior-03.svg",
+      "alt": "Ruang interior ilustratif original dengan sofa, cahaya jendela, dan tanaman",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/renovasi-hasil.svg",
+      "alt": "Ilustrasi ruangan sesudah renovasi, contoh fiktif RD",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/renovasi-detail.svg",
+      "alt": "Ilustrasi material dan alat renovasi RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/works-project.svg",
+      "alt": "Ilustrasi ruang kerja untuk profil usaha RD Works",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/works-service.svg",
+      "alt": "Ilustrasi proses kolaborasi RD Works",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/studio-poster.svg",
+      "alt": "Karya desain original RakanDev untuk demo portofolio: studio-poster",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/studio-packaging.svg",
+      "alt": "Karya desain original RakanDev untuk demo portofolio: studio-packaging",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/studio-website.svg",
+      "alt": "Karya desain original RakanDev untuk demo portofolio: studio-website",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-01.svg",
+      "alt": "Mug keramik Luma, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-02.svg",
+      "alt": "Lampu meja Senja, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-03.svg",
+      "alt": "Tote Harian, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-04.svg",
+      "alt": "Notebook Catatan, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-05.svg",
+      "alt": "Pot tanaman Teduh, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-06.svg",
+      "alt": "Piring kayu Bulat, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "Original RakanDev vector artwork, authored for this project",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/illustrations/website-usaha.webp",
+      "alt": "Ilustrasi original laptop dengan sketsa website dan tanaman",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "illustration",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/illustrations/modul-tersusun.webp",
+      "alt": "Ilustrasi modul keuangan, stok, tim, dan laporan yang saling terhubung",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "illustration",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/illustrations/kolaborasi.webp",
+      "alt": "Dua figur berkolaborasi menyusun sketsa proyek",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "illustration",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/interior-01.webp",
+      "alt": "Ruang interior ilustratif original dengan sofa, cahaya jendela, dan tanaman",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/interior-02.webp",
+      "alt": "Ruang interior ilustratif original dengan sofa, cahaya jendela, dan tanaman",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/interior-03.webp",
+      "alt": "Ruang interior ilustratif original dengan sofa, cahaya jendela, dan tanaman",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/renovasi-hasil.webp",
+      "alt": "Ilustrasi ruangan sesudah renovasi, contoh fiktif RD",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/renovasi-detail.webp",
+      "alt": "Ilustrasi material dan alat renovasi RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/works-project.webp",
+      "alt": "Ilustrasi ruang kerja untuk profil usaha RD Works",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/works-service.webp",
+      "alt": "Ilustrasi proses kolaborasi RD Works",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/studio-poster.webp",
+      "alt": "Karya desain original RakanDev untuk demo portofolio: studio-poster",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/studio-packaging.webp",
+      "alt": "Karya desain original RakanDev untuk demo portofolio: studio-packaging",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/studio-website.webp",
+      "alt": "Karya desain original RakanDev untuk demo portofolio: studio-website",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-01.webp",
+      "alt": "Mug keramik Luma, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-02.webp",
+      "alt": "Lampu meja Senja, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-03.webp",
+      "alt": "Tote Harian, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-04.webp",
+      "alt": "Notebook Catatan, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-05.webp",
+      "alt": "Pot tanaman Teduh, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-content/product-06.webp",
+      "alt": "Piring kayu Bulat, ilustrasi produk original RD",
+      "dimensions": [
+        800,
+        600
+      ],
+      "purpose": "demo-content",
+      "provenance": "WebP export of original RakanDev vector artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/ara-coffee.webp",
+      "source": "/assets/artwork/ara-coffee.svg",
+      "alt": "Kemasan kopi ARA: identitas hijau dan peach",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/puls-poster.webp",
+      "source": "/assets/artwork/puls-poster.svg",
+      "alt": "Poster PULS: tipografi cobalt dan coral",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/moru-skincare.webp",
+      "source": "/assets/artwork/moru-skincare.svg",
+      "alt": "Packaging MORU: botol dan box silver blue",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/ruang-editorial.webp",
+      "source": "/assets/artwork/ruang-editorial.svg",
+      "alt": "Editorial RUANG: buku terbuka dan grafis arsitektural",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/orbit-identity.webp",
+      "source": "/assets/artwork/orbit-identity.svg",
+      "alt": "Identitas ORBIT: garis orbit dan kartu nama coral",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/luma-digital.webp",
+      "source": "/assets/artwork/luma-digital.svg",
+      "alt": "Artwork konsep website LUMA pada laptop",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/studio-collage.webp",
+      "source": "/assets/artwork/studio-collage.svg",
+      "alt": "Komposisi RakanDev: poster teal dan kartu cream dengan logo RD final",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/mug-luma.webp",
+      "source": "/assets/artwork/mug-luma.svg",
+      "alt": "Mug keramik Luma: cobalt, pantulan, bayangan studio",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/lamp-senja.webp",
+      "source": "/assets/artwork/lamp-senja.svg",
+      "alt": "Lampu meja Senja: metal reflektif dan cahaya hangat",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/tote-harian.webp",
+      "source": "/assets/artwork/tote-harian.svg",
+      "alt": "Tote Harian: canvas dan detail jahitan",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/material-study.webp",
+      "source": "/assets/artwork/material-study.svg",
+      "alt": "Swatch material RD: kayu, keramik, microcement",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/rd-stationery.webp",
+      "source": "/assets/artwork/rd-stationery.svg",
+      "alt": "Stationery RakanDev: logo Caveat final pada letterhead dan kartu teal-cream",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Original RakanDev composition, lettering and vector product artwork",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/interior-hero.webp",
+      "alt": "Ruang tinggal dan cahaya alami",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1600210492486-724fe5c67fb0",
+      "source": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/interior-living.webp",
+      "alt": "Interior kontemporer",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1600607687939-ce8a6c25118c",
+      "source": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/interior-kitchen.webp",
+      "alt": "Detail ruang tinggal dan tangga",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1600566753086-00f18fb6b3ea",
+      "source": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/interior-detail.webp",
+      "alt": "Detail arsitektural",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1600607687920-4e2a09cf159d",
+      "source": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/interior-bedroom.webp",
+      "alt": "Konsep kamar mandi",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1600566752355-35792bedcfea",
+      "source": "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/works-office.webp",
+      "alt": "Ruang kerja kolaboratif",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1497366811353-6870744d04b2",
+      "source": "https://images.unsplash.com/photo-1497366811353-6870744d04b2",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/works-studio.webp",
+      "alt": "Studio kerja",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1497366754035-f200968a6e72",
+      "source": "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/photos/renovasi-room.webp",
+      "alt": "Konsep ruang modern",
+      "dimensions": [
+        1600,
+        1100
+      ],
+      "purpose": "demo-photography",
+      "provenance": "Unsplash photograph photo-1616486338812-3dadae4b4ace",
+      "source": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/ara-coffee-detail.webp",
+      "alt": "Detail artwork konsep ara-coffee",
+      "dimensions": [
+        1100,
+        840
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Detail crop of original RakanDev artwork ara-coffee",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/puls-poster-detail.webp",
+      "alt": "Detail artwork konsep puls-poster",
+      "dimensions": [
+        1100,
+        840
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Detail crop of original RakanDev artwork puls-poster",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/moru-skincare-detail.webp",
+      "alt": "Detail artwork konsep moru-skincare",
+      "dimensions": [
+        1100,
+        840
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Detail crop of original RakanDev artwork moru-skincare",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/ruang-editorial-detail.webp",
+      "alt": "Detail artwork konsep ruang-editorial",
+      "dimensions": [
+        1100,
+        840
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Detail crop of original RakanDev artwork ruang-editorial",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/orbit-identity-detail.webp",
+      "alt": "Detail artwork konsep orbit-identity",
+      "dimensions": [
+        1100,
+        840
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Detail crop of original RakanDev artwork orbit-identity",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/artwork/luma-digital-detail.webp",
+      "alt": "Detail artwork konsep luma-digital",
+      "dimensions": [
+        1100,
+        840
+      ],
+      "purpose": "brand-artwork",
+      "provenance": "Detail crop of original RakanDev artwork luma-digital",
+      "license": "Project-owned original artwork",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/apple-touch-icon.png",
+      "alt": "Ikon RakanDev",
+      "dimensions": [
+        180,
+        180
+      ],
+      "purpose": "brand",
+      "provenance": "Favicon image supplied by user on 2026-10-13; whitespace trimmed, aspect ratio preserved",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/favicon-16.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        16,
+        16
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / favicon-16.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/favicon-32.png",
+      "alt": "Ikon RakanDev",
+      "dimensions": [
+        32,
+        32
+      ],
+      "purpose": "brand",
+      "provenance": "Favicon image supplied by user on 2026-10-13; whitespace trimmed, aspect ratio preserved",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/favicon.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / favicon.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/icon-512.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        512,
+        512
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / icon-512.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-blue.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-blue.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-blue.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        572,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-blue.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-cream.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-cream.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-cream.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        572,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-cream.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-primary.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-primary.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-primary.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        572,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-white.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-white.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-horizontal-white.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        572,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-white.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-blue.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-blue.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-blue.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-blue.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-cream.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-cream.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-cream.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-cream.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-micro.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-micro.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-primary.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-primary.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-primary.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-white.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-white.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-mark-white.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-white.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-blue.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-blue.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-blue.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        420,
+        314
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-blue.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-cream.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-cream.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-cream.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        420,
+        314
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-cream.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-primary.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-primary.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-primary.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        420,
+        314
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-white.png",
+      "alt": "RakanDev",
+      "dimensions": [
+        2400,
+        1794
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-white.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-stacked-white.svg",
+      "alt": "RakanDev",
+      "dimensions": [
+        420,
+        314
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-stacked-white.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-blue.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-blue.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-blue.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        420,
+        112
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-blue.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-cream.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-cream.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-cream.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        420,
+        112
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-cream.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-primary.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-primary.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-primary.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        420,
+        112
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-white.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        2400,
+        640
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-white.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-white.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        420,
+        112
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-wordmark-white.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rd-mark-plum.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rd-mark-ink.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rd-mark-white.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        128,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-white.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-plum.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        572,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark-ink.svg",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        572,
+        128
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-primary.svg",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rd-mark.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-mark-primary.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-wordmark.png",
+      "alt": "Monogram RD menyatu",
+      "dimensions": [
+        2400,
+        537
+      ],
+      "purpose": "brand",
+      "provenance": "Exact export from RakanDev Brand Kit 4.0.0 / rakandev-horizontal-primary.png",
+      "license": "Original RD composition; lettering under SIL Open Font License 1.1",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/01-PNG-Transparan/logo-horizontal.png",
+      "alt": "logo-horizontal",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "purpose": "brand",
+      "provenance": "Supplied RakanDev-Logo-Assets / 01-PNG-Transparan/logo-horizontal.png",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/01-PNG-Transparan/ikon-rd.png",
+      "alt": "ikon-rd",
+      "dimensions": [
+        1731,
+        909
+      ],
+      "purpose": "brand",
+      "provenance": "Supplied RakanDev-Logo-Assets / 01-PNG-Transparan/ikon-rd.png",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/01-PNG-Transparan/teks-rakandev.png",
+      "alt": "teks-rakandev",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "purpose": "brand",
+      "provenance": "Supplied RakanDev-Logo-Assets / 01-PNG-Transparan/teks-rakandev.png",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/02-PNG-Latar-Putih/logo-horizontal.png",
+      "alt": "logo-horizontal",
+      "dimensions": [
+        2171,
+        724
+      ],
+      "purpose": "brand",
+      "provenance": "Supplied RakanDev-Logo-Assets / 02-PNG-Latar-Putih/logo-horizontal.png",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/02-PNG-Latar-Putih/ikon-rd.png",
+      "alt": "ikon-rd",
+      "dimensions": [
+        1729,
+        910
+      ],
+      "purpose": "brand",
+      "provenance": "Supplied RakanDev-Logo-Assets / 02-PNG-Latar-Putih/ikon-rd.png",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/02-PNG-Latar-Putih/teks-rakandev.png",
+      "alt": "teks-rakandev",
+      "dimensions": [
+        2173,
+        724
+      ],
+      "purpose": "brand",
+      "provenance": "Supplied RakanDev-Logo-Assets / 02-PNG-Latar-Putih/teks-rakandev.png",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-logo.webp",
+      "alt": "RakanDev",
+      "dimensions": [
+        840,
+        144
+      ],
+      "purpose": "brand",
+      "provenance": "Lossless WebP export of supplied logo-horizontal.png; transparent padding trimmed",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-symbol.webp",
+      "alt": "RakanDev",
+      "dimensions": [
+        320,
+        158
+      ],
+      "purpose": "brand",
+      "provenance": "Lossless WebP export of supplied ikon-rd.png; transparent padding trimmed",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/rakandev-signature.webp",
+      "alt": "RakanDev",
+      "dimensions": [
+        840,
+        229
+      ],
+      "purpose": "brand",
+      "provenance": "Lossless WebP export of supplied teks-rakandev.png; transparent padding trimmed",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/supplied/favicon-source.png",
+      "alt": "RD",
+      "dimensions": [
+        1729,
+        910
+      ],
+      "purpose": "brand",
+      "provenance": "Exact favicon image supplied by user on 2026-10-13",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/brand/favicon-192.png",
+      "alt": "Ikon RakanDev",
+      "dimensions": [
+        192,
+        192
+      ],
+      "purpose": "brand",
+      "provenance": "Favicon image supplied by user on 2026-10-13; whitespace trimmed, aspect ratio preserved",
+      "license": "User-supplied brand asset",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/landing.webp",
+      "alt": "Tampilan demo RD Interior",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/landing/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/portfolio.webp",
+      "alt": "Tampilan demo RD Studio",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/portfolio/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/plus.webp",
+      "alt": "Tampilan demo RD Renovasi",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/plus/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/profile.webp",
+      "alt": "Tampilan demo RD Works",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/profile/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/erp-discovery.webp",
+      "alt": "Tampilan demo RD Discovery",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/erp-discovery/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/erp-pilot.webp",
+      "alt": "Tampilan demo RD Pilot CRM/proyek",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/erp-pilot/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/erp-starter.webp",
+      "alt": "Tampilan demo RD Starter",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/erp-starter/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/erp-operations.webp",
+      "alt": "Tampilan demo RD Operasional",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/erp-operations/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/erp-custom.webp",
+      "alt": "Tampilan demo RD custom pada platform",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/erp-custom/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/erp-zero.webp",
+      "alt": "Tampilan demo RD custom dari nol",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/erp-zero/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/custom.webp",
+      "alt": "Tampilan demo RD Shop",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/custom/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-retail.webp",
+      "alt": "Tampilan demo RD Mart",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/retail/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-distributor.webp",
+      "alt": "Tampilan demo RD Distribusi",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/distributor/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-manufacturing.webp",
+      "alt": "Tampilan demo RD Manufaktur",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/manufacturing/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-construction.webp",
+      "alt": "Tampilan demo RD Konstruksi",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/construction/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-services.webp",
+      "alt": "Tampilan demo RD Agency",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/services/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-food-beverage.webp",
+      "alt": "Tampilan demo RD Kopi",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/food-beverage/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-healthcare.webp",
+      "alt": "Tampilan demo RD Klinik",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/healthcare/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-education.webp",
+      "alt": "Tampilan demo RD Belajar",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/education/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-agribusiness.webp",
+      "alt": "Tampilan demo RD Tumbuh",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/agribusiness/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-logistics.webp",
+      "alt": "Tampilan demo RD Kirim",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/logistics/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-property.webp",
+      "alt": "Tampilan demo RD Properti",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/property/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/solusi-ecommerce.webp",
+      "alt": "Tampilan demo RD Commerce",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "demo-cover",
+      "provenance": "Screenshot of working local demo /demo/solusi/ecommerce/ with original RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/grill.webp",
+      "source": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1555939594-58d7cb561ad1",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/toast.webp",
+      "source": "https://images.unsplash.com/photo-1525351484163-7529414344d8",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1525351484163-7529414344d8",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/rice-bowl.webp",
+      "source": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1511690743698-d9d85f2fbf38",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/salad.webp",
+      "source": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1546069901-ba9599a7e63c",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/dumpling.webp",
+      "source": "https://images.unsplash.com/photo-1563245372-f21724e3856d",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1563245372-f21724e3856d",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/cookies.webp",
+      "source": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1499636136210-6f4ee915583e",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/pizza.webp",
+      "source": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1565299624946-b28f40a0ae38",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/pancake.webp",
+      "source": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1528207776546-365bb710ee93",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/cake.webp",
+      "source": "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1565958011703-44f9829ba187",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/drink.webp",
+      "source": "https://images.unsplash.com/photo-1551024709-8f23befc6f87",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1551024709-8f23befc6f87",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/coffee.webp",
+      "source": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1509042239860-f550ce710b93",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/bakery.webp",
+      "source": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1509440159596-0249088772ff",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/mug.webp",
+      "source": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1514228742587-6b1558fcca3d",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/vase.webp",
+      "source": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1578500494198-246f612d3b3d",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/homeware.webp",
+      "source": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1600210492486-724fe5c67fb0",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/coffee-beans.webp",
+      "source": "https://images.unsplash.com/photo-1447933601403-0c6688de566e",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1447933601403-0c6688de566e",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/lamp.webp",
+      "source": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1507473885765-e6ed057f782c",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/chair.webp",
+      "source": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1598300042247-d088f8ab3a91",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/plant.webp",
+      "source": "https://images.unsplash.com/photo-1485955900006-10f4d324d411",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1485955900006-10f4d324d411",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/linen.webp",
+      "source": "https://images.unsplash.com/photo-1600369671236-e74521d4b6ad",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1600369671236-e74521d4b6ad",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/cup.webp",
+      "source": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1495474472287-4d71bcdd2085",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/workshop.webp",
+      "source": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1516035069371-29a1b244cc32",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/basket.webp",
+      "source": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1586023492125-27b2c045efd7",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/portrait.webp",
+      "source": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1506794778202-cad84cf45f1d",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/commerce/photos/market.webp",
+      "source": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a",
+      "dimensions": [
+        1400,
+        1050
+      ],
+      "purpose": "commerce-photography",
+      "provenance": "Unsplash photograph photo-1555529669-e69e7aa0ba9a",
+      "license": "Unsplash License: https://unsplash.com/license",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/saji.webp",
+      "alt": "Tampilan demo SAJI",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/saji/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/bekal.webp",
+      "alt": "Tampilan demo BEKAL",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/bekal/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/luma.webp",
+      "alt": "Tampilan demo LUMA",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/luma/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/sela.webp",
+      "alt": "Tampilan demo SELA",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/sela/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/karya.webp",
+      "alt": "Tampilan demo KARYA",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/karya/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/panggung.webp",
+      "alt": "Tampilan demo PANGGUNG",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/panggung/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/demo-covers/temu.webp",
+      "alt": "Tampilan demo TEMU",
+      "dimensions": [
+        1200,
+        750
+      ],
+      "purpose": "commerce-demo-cover",
+      "provenance": "Screenshot of working local demo /demo/temu/ after entrance animation completed; RD badge",
+      "license": "RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    },
+    {
+      "file": "/assets/social/rakandev-og.png",
+      "alt": "RakanDev: bikin usahamu layak dilirik, website Basic Rp300.000",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "purpose": "social",
+      "provenance": "Actual local homepage screenshot; first carousel slide with supplied RD identity and Basic Rp300.000",
+      "license": "Supplied RakanDev identity; RD original interface/artwork; embedded photography under Unsplash License; fonts OFL",
+      "date": "2026-10-13"
+    }
+  ],
+  "identityVersion": "supplied-png-2026-10-13",
+  "identityPalette": [
+    "#086288",
+    "#4D8DBA",
+    "#97D7FF",
+    "#FFEFC4"
+  ],
+  "updated": "2026-10-13"
+}

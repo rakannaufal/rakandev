@@ -1,0 +1,2225 @@
+{
+  "schemaVersion": 1,
+  "planDate": "2026-10-13",
+  "brand": "RakanDev",
+  "products": [
+    {
+      "id": "landing",
+      "name": "Landing page Basic",
+      "kind": "website",
+      "price": {
+        "amount": 300000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Halaman promosi dengan pembuka, layanan, karya pilihan, dan kontak; materi serta identitas brand ditata sesuai arah visual yang dipilih.",
+      "sourceTimeline": null,
+      "limits": {
+        "sections": 4,
+        "pages": 1,
+        "revisions": 3,
+        "content": "client-supplied"
+      },
+      "demo": {
+        "id": "landing",
+        "route": "/demo/landing/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "portfolio",
+      "name": "Portofolio Basic",
+      "kind": "website",
+      "price": {
+        "amount": 300000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Portofolio dengan perkenalan, tentang, enam karya pilihan beserta detail, dan kontak; penyaring kategori sederhana termasuk.",
+      "sourceTimeline": null,
+      "limits": {
+        "sections": 4,
+        "pages": 1,
+        "revisions": 3,
+        "content": "client-supplied",
+        "portfolioItems": 6
+      },
+      "demo": {
+        "id": "portfolio",
+        "route": "/demo/portfolio/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "plus",
+      "name": "Website Plus",
+      "kind": "website",
+      "price": {
+        "amount": 650000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Halaman promosi lengkap dengan enam bagian, bantuan penulisan materi hingga 500 kata dari fakta klien, serta formulir kontak maksimal lima kolom.",
+      "sourceTimeline": null,
+      "limits": {
+        "sections": 6,
+        "pages": 1,
+        "revisions": 3,
+        "content": "client-supplied"
+      },
+      "demo": {
+        "id": "plus",
+        "route": "/demo/plus/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "profile",
+      "name": "Profil tiga halaman",
+      "kind": "website",
+      "price": {
+        "amount": 750000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Tiga halaman profil usaha: beranda, tentang, dan karya atau layanan; navigasi antarhalaman, materi brand, dan bantuan penulisan hingga 500 kata.",
+      "sourceTimeline": null,
+      "limits": {
+        "sections": 12,
+        "pages": 3,
+        "revisions": 3,
+        "content": "client-supplied"
+      },
+      "demo": {
+        "id": "profile",
+        "route": "/demo/profile/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "saji",
+      "name": "Penjualan makanan Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 500000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Satu halaman, 12 menu, keranjang, catatan, pilihan pickup/meja dan ringkasan pesanan. QRIS atau tautan bayar milik merchant; pembayaran dikonfirmasi manual. Tanpa dashboard dapur.",
+      "sourceTimeline": "Katalog 3-5 hari kerja; otomatis 2-3 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 12
+      },
+      "commerce": {
+        "key": "saji",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "saji",
+        "route": "/demo/saji/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "saji-qris",
+      "name": "Penjualan makanan QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 1750000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu outlet, 40 menu, topping/porsi, QRIS dinamis, verifikasi pembayaran server, antrean dapur, menu habis, laporan CSV; tiga staf. Pengantaran/printer terpisah.",
+      "sourceTimeline": "Katalog 3-5 hari kerja; otomatis 2-3 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 40
+      },
+      "commerce": {
+        "key": "saji",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "saji",
+        "route": "/demo/saji/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "bekal",
+      "name": "Toko makanan & pre-order Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 650000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Satu halaman, 12 produk, varian isi, keranjang, permintaan tanggal pre-order/pickup dan ongkir lima zona. Stok/jadwal serta pembayaran dikonfirmasi admin secara manual.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 2-4 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 12
+      },
+      "commerce": {
+        "key": "bekal",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "bekal",
+        "route": "/demo/bekal/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "bekal-qris",
+      "name": "Toko makanan & pre-order QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 2000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu dapur/toko, 40 produk, 80 varian total, QRIS dinamis, stok, kuota pre-order, batas pemesanan, jadwal dan ongkir lima zona; dua admin. Kurir diatur admin.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 2-4 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 40
+      },
+      "commerce": {
+        "key": "bekal",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "bekal",
+        "route": "/demo/bekal/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "luma",
+      "name": "Toko online Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 500000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Satu halaman, 10 produk, detail/varian, pencarian, keranjang, ongkir tetap, dan ringkasan pesanan. QRIS/tautan bayar merchant; status diverifikasi manual. Tanpa akun atau database pesanan.",
+      "sourceTimeline": "Katalog 3-5 hari kerja; otomatis 2-3 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 10
+      },
+      "commerce": {
+        "key": "luma",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "luma",
+        "route": "/demo/luma/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "luma-qris",
+      "name": "Toko online QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 1500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu toko/gudang, 30 produk, 60 varian total, admin stok/pesanan, QRIS dinamis, invoice email, kupon, resi manual dan CSV. Dua admin; API ongkir terpisah.",
+      "sourceTimeline": "Katalog 3-5 hari kerja; otomatis 2-3 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 30
+      },
+      "commerce": {
+        "key": "luma",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "luma",
+        "route": "/demo/luma/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "sela",
+      "name": "Booking layanan Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 750000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Lima layanan pada satu halaman, rincian durasi, permintaan jadwal/staf dan ringkasan booking. Slot, DP dan pembayaran dikonfirmasi admin manual; tanpa kalender kapasitas otomatis.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 3-4 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 5
+      },
+      "commerce": {
+        "key": "sela",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "sela",
+        "route": "/demo/sela/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "sela-qris",
+      "name": "Booking layanan QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 2500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu lokasi, sepuluh layanan, tiga staf, kalender/slot, reservasi sementara, DP atau penuh dengan QRIS, email konfirmasi, blok jadwal dan permintaan reschedule. Pembatalan sesuai kebijakan.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 3-4 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 10
+      },
+      "commerce": {
+        "key": "sela",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "sela",
+        "route": "/demo/sela/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "karya",
+      "name": "Penjualan produk digital Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 650000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Sepuluh produk digital, preview/isi/lisensi dan ringkasan pembelian pada satu halaman. Pembayaran dikonfirmasi manual; tautan file dikirim admin setelah lunas.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 2-3 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 10
+      },
+      "commerce": {
+        "key": "karya",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "karya",
+        "route": "/demo/karya/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "karya-qris",
+      "name": "Penjualan produk digital QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 1500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu penjual, 30 produk, QRIS dinamis, email akses setelah lunas, tautan unduh terbatas waktunya, pencatatan unduhan dan kupon. Storage/lisensi aset terpisah; tanpa DRM atau kursus video.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 2-3 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 30
+      },
+      "commerce": {
+        "key": "karya",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "karya",
+        "route": "/demo/karya/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "panggung",
+      "name": "Tiket & workshop Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 750000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Satu acara, tiga kelas tiket, form peserta dan ringkasan pemesanan. Kuota/pembayaran dikonfirmasi manual, tiket dikirim penyelenggara. Tanpa QR check-in otomatis.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 3-5 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 1
+      },
+      "commerce": {
+        "key": "panggung",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "panggung",
+        "route": "/demo/panggung/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "panggung-qris",
+      "name": "Tiket & workshop QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Lima acara aktif, tiga kelas per acara, kuota, QRIS dinamis, e-ticket email, kirim ulang dan check-in QR online. Tiga petugas; tanpa peta kursi dan check-in offline.",
+      "sourceTimeline": "Katalog 4-6 hari kerja; otomatis 3-5 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 5
+      },
+      "commerce": {
+        "key": "panggung",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "panggung",
+        "route": "/demo/panggung/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "temu",
+      "name": "Direktori & marketplace Starter",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 1000000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Direktori lima toko dan 30 produk; pencarian/filter, profil toko, ringkasan pesanan per toko dan pembayaran ke merchant terkait yang dikonfirmasi manual. Data diperbarui pengelola; tanpa akun penjual.",
+      "sourceTimeline": "Direktori 1-2 minggu; marketplace 5-8 minggu",
+      "limits": {
+        "pages": 1,
+        "sections": 4,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 30
+      },
+      "commerce": {
+        "key": "temu",
+        "level": "starter"
+      },
+      "demo": {
+        "id": "temu",
+        "route": "/demo/temu/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "temu-qris",
+      "name": "Direktori & marketplace QRIS otomatis",
+      "kind": "website",
+      "family": "commerce",
+      "price": {
+        "amount": 9500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Pilot 15 penjual, 300 produk total, portal penjual/operator, moderasi produk, QRIS per penjual, pesanan dan invoice komisi. Satu penjual per checkout; kelayakan gateway multi-merchant harus terbukti. Split dana terpisah.",
+      "sourceTimeline": "Direktori 1-2 minggu; marketplace 5-8 minggu",
+      "limits": {
+        "pages": null,
+        "sections": null,
+        "revisions": 3,
+        "content": "client-supplied",
+        "products": 300
+      },
+      "commerce": {
+        "key": "temu",
+        "level": "automatic"
+      },
+      "demo": {
+        "id": "temu",
+        "route": "/demo/temu/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "erp-discovery",
+      "name": "Discovery ERP",
+      "kind": "erp",
+      "price": {
+        "amount": 1200000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "scope": "Audit satu proses utama; satu sesi maksimal 90 menit; peta alur, role, kebutuhan data, daftar modul, risiko, dan estimasi. Belum mencakup aplikasi produksi.",
+      "sourceTimeline": "Sekitar 5 hari kerja",
+      "limits": null,
+      "demo": {
+        "id": "erp-discovery",
+        "route": "/demo/erp-discovery/",
+        "type": "sample-deliverable"
+      }
+    },
+    {
+      "id": "erp-pilot",
+      "name": "Pilot CRM/proyek",
+      "kind": "erp",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Platform siap pakai; satu perusahaan, lima pengguna, IDR; kontak, satu pipeline, tugas dan milestone, catatan tagihan/kas sederhana; dua laporan standar; satu impor 200 baris; satu pelatihan 1 jam.",
+      "sourceTimeline": "Sekitar 2 sampai 3 minggu",
+      "limits": null,
+      "demo": {
+        "id": "erp-pilot",
+        "route": "/demo/erp-pilot/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "erp-starter",
+      "name": "ERP Starter",
+      "kind": "erp",
+      "price": {
+        "amount": 6000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Platform ERP siap pakai; satu perusahaan dan lokasi, sepuluh pengguna, IDR; pelanggan, produk/jasa, faktur, pembayaran, piutang, jurnal dan laporan standar; satu impor master 500 baris; empat laporan; satu template cetak dan pelatihan 2 jam.",
+      "sourceTimeline": "Sekitar 3 sampai 5 minggu",
+      "limits": null,
+      "demo": {
+        "id": "erp-starter",
+        "route": "/demo/erp-starter/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "erp-operations",
+      "name": "ERP Operasional",
+      "kind": "erp",
+      "price": {
+        "amount": 12000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Platform ERP siap pakai; satu perusahaan, dua gudang, dua puluh pengguna, IDR; penjualan, pembelian, stok dan akuntansi standar; satu impor master 1.000 baris; enam laporan; dua approval sederhana; dua sesi pelatihan masing masing 2 jam.",
+      "sourceTimeline": "Sekitar 5 sampai 8 minggu",
+      "limits": null,
+      "demo": {
+        "id": "erp-operations",
+        "route": "/demo/erp-operations/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "erp-custom",
+      "name": "ERP custom pada platform",
+      "kind": "erp",
+      "price": {
+        "amount": 15000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Fondasi platform yang sudah teruji ditambah alur atau modul khusus dari hasil discovery; batas awal 80 jam dasar. Pengguna, migrasi, laporan, dan integrasi ditentukan tertulis; seluruh 26 modul belum menjadi cakupan harga awal.",
+      "sourceTimeline": "Sekitar 6 sampai 12 minggu",
+      "limits": null,
+      "demo": {
+        "id": "erp-custom",
+        "route": "/demo/erp-custom/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "erp-zero",
+      "name": "ERP custom dari nol",
+      "kind": "erp",
+      "price": {
+        "amount": 45000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Estimasi awal satu sistem dengan fondasi dan alur terbatas, 240 jam dasar. Arsitektur, pengujian, kontrol akses, data, dan dukungan dirancang khusus. Cakupan penuh tiap sektor memerlukan audit dan dapat jauh lebih besar.",
+      "sourceTimeline": "Sekitar 4 sampai 6 bulan",
+      "limits": null,
+      "demo": {
+        "id": "erp-zero",
+        "route": "/demo/erp-zero/",
+        "type": "browser-simulation"
+      }
+    },
+    {
+      "id": "custom",
+      "name": "Website custom",
+      "kind": "website",
+      "price": {
+        "amount": null,
+        "currency": "IDR",
+        "mode": "after-consultation",
+        "billing": "once"
+      },
+      "scope": null,
+      "sourceTimeline": null,
+      "limits": null,
+      "demo": {
+        "id": "custom",
+        "route": "/demo/custom/",
+        "type": "browser-simulation"
+      }
+    }
+  ],
+  "websiteAddons": [
+    {
+      "id": "section",
+      "name": "Bagian tambahan",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000 per bagian",
+      "scope": "Mengikuti template dengan teks serta gambar siap"
+    },
+    {
+      "id": "page",
+      "name": "Halaman statis tambahan",
+      "price": {
+        "amount": 150000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp150.000 per halaman",
+      "scope": "Maksimal empat bagian mengikuti template dengan bahan siap"
+    },
+    {
+      "id": "gallery",
+      "name": "Galeri tambahan",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000 per tiga karya",
+      "scope": "Satu gambar dan deskripsi singkat per karya tanpa halaman khusus"
+    },
+    {
+      "id": "revision",
+      "name": "Revisi kecil tambahan",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000 per putaran",
+      "scope": "Putaran keempat dan seterusnya: satu daftar penyesuaian teks, foto, warna, atau jarak dalam scope; perubahan fitur dihitung terpisah."
+    },
+    {
+      "id": "copy",
+      "name": "Penulisan materi",
+      "price": {
+        "amount": 150000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp150.000",
+      "scope": "Maksimal 500 kata total satu bahasa dari brief dan fakta klien; satu koreksi"
+    },
+    {
+      "id": "design",
+      "name": "Desain susunan khusus",
+      "price": {
+        "amount": 350000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp350.000",
+      "scope": "Satu halaman hingga enam bagian, satu arah desain; tiga putaran penyesuaian dalam scope, tanpa ilustrasi khusus."
+    },
+    {
+      "id": "motion",
+      "name": "Animasi ringan",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000",
+      "scope": "Maksimal tiga elemen sederhana tanpa video atau animasi kompleks"
+    },
+    {
+      "id": "form",
+      "name": "Formulir kontak",
+      "price": {
+        "amount": 100000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp100.000",
+      "scope": "Maksimal lima kolom tanpa upload ke satu penerima dengan uji kirim"
+    },
+    {
+      "id": "contact",
+      "name": "Tombol kontak tambahan",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000",
+      "scope": "Maksimal tiga nomor atau kanal tambahan tanpa chatbot"
+    },
+    {
+      "id": "map",
+      "name": "Peta lokasi tertanam",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000",
+      "scope": "Satu lokasi melalui embed resmi; tautan lokasi biasa sudah termasuk Basic"
+    },
+    {
+      "id": "filter",
+      "name": "Galeri dengan penyaring kategori",
+      "price": {
+        "amount": 100000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp100.000",
+      "scope": "Untuk galeri yang lebih luas: maksimal 12 karya dan tiga kategori tanpa CMS; enam karya serta filter sederhana termasuk portofolio Basic."
+    },
+    {
+      "id": "language",
+      "name": "Bahasa kedua",
+      "price": {
+        "amount": 150000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp150.000",
+      "scope": "Satu halaman dengan susunan sama dan teks terjemahan disediakan klien"
+    },
+    {
+      "id": "translation",
+      "name": "Penerjemahan materi",
+      "price": {
+        "amount": 150000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp150.000",
+      "scope": "Maksimal 500 kata ke satu bahasa yang dapat diperiksa pendiri; terpisah dari pemasangan bahasa kedua"
+    },
+    {
+      "id": "analytics",
+      "name": "Pemasangan analitik",
+      "price": {
+        "amount": 100000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp100.000",
+      "scope": "Satu akun milik klien dan pelacakan satu tindakan utama dengan uji"
+    },
+    {
+      "id": "search",
+      "name": "Search Console dan sitemap",
+      "price": {
+        "amount": 100000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp100.000",
+      "scope": "Verifikasi satu domain sitemap serta pengajuan; indeks tidak dijamin"
+    },
+    {
+      "id": "social",
+      "name": "Metadata berbagi tautan",
+      "price": {
+        "amount": 50000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp50.000",
+      "scope": "Judul deskripsi dan satu gambar untuk preview tautan"
+    },
+    {
+      "id": "booking",
+      "name": "Tautan pemesanan eksternal",
+      "price": {
+        "amount": 100000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "once"
+      },
+      "priceLabel": "Rp100.000",
+      "scope": "Satu layanan penjadwalan atau pemesanan milik klien; tanpa membuat sistem booking"
+    },
+    {
+      "id": "maintenance",
+      "name": "Pemeliharaan opsional",
+      "price": {
+        "amount": 100000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "monthly"
+      },
+      "priceLabel": "Rp100.000 per bulan",
+      "scope": "Pemeriksaan dan perubahan kecil maksimal 30 menit total per bulan tanpa akumulasi"
+    }
+  ],
+  "foundations": [
+    {
+      "id": "login-dan-keamanan",
+      "name": "Login dan Keamanan",
+      "referenceFeatures": [
+        "Login",
+        "Lupa password",
+        "2FA",
+        "Hak akses per role (menu dan data)",
+        "Log aktivitas"
+      ],
+      "applicationLimits": "Diterapkan sejak pilot: role dan akses data diuji; 2FA admin diverifikasi sebelum penawaran; pemulihan akun terdokumentasi."
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "referenceFeatures": [
+        "Ringkasan omzet",
+        "Kas",
+        "Stok",
+        "Tugas",
+        "Notifikasi"
+      ],
+      "applicationLimits": "Omzet mengikuti transaksi penjualan yang disepakati; kas dan piutang ditampilkan terpisah. Indikator mengikuti modul aktif."
+    },
+    {
+      "id": "master-data",
+      "name": "Master Data",
+      "referenceFeatures": [
+        "Pelanggan",
+        "Supplier",
+        "Produk/Jasa",
+        "Satuan",
+        "Kategori",
+        "Cabang",
+        "Mata uang",
+        "Pajak"
+      ],
+      "applicationLimits": "Hanya entitas relevan diaktifkan. Cabang, mata uang, dan aturan pajak dicatat bila masuk ruang lingkup."
+    },
+    {
+      "id": "keuangan",
+      "name": "Keuangan",
+      "referenceFeatures": [
+        "Jurnal",
+        "Buku besar",
+        "Kas/Bank",
+        "Hutang",
+        "Piutang",
+        "Aset",
+        "Laporan keuangan"
+      ],
+      "applicationLimits": "ERP dengan akuntansi harus mempunyai posting dan laporan yang diuji. Pilot pencatatan kas sederhana diberi label sistem operasional; fitur akuntansi lengkap belum menjadi hasil pilot."
+    },
+    {
+      "id": "approval",
+      "name": "Approval",
+      "referenceFeatures": [
+        "Alur persetujuan bertingkat",
+        "Audit trail"
+      ],
+      "applicationLimits": "Kontrol minimum mengikuti risiko transaksi sejak tahap awal; jumlah tingkat dan aturan persetujuan disepakati."
+    },
+    {
+      "id": "laporan",
+      "name": "Laporan",
+      "referenceFeatures": [
+        "Laporan standar",
+        "Filter",
+        "Ekspor Excel/PDF"
+      ],
+      "applicationLimits": "Jumlah, kolom, filter, format ekspor, dan contoh hasil laporan ditulis dalam proposal."
+    },
+    {
+      "id": "pengaturan",
+      "name": "Pengaturan",
+      "referenceFeatures": [
+        "Profil perusahaan",
+        "Penomoran dokumen",
+        "Template cetak",
+        "Backup"
+      ],
+      "applicationLimits": "Pemilik akun, format cetak, jadwal backup, retensi, dan uji restore disepakati sebelum produksi."
+    }
+  ],
+  "erpGroups": [
+    {
+      "id": "finance",
+      "name": "Keuangan dan Akuntansi",
+      "moduleIds": [
+        "accounting",
+        "budget",
+        "cash-bank",
+        "tax"
+      ]
+    },
+    {
+      "id": "people",
+      "name": "Sumber Daya Manusia",
+      "moduleIds": [
+        "hr-payroll",
+        "employee-portal"
+      ]
+    },
+    {
+      "id": "customers",
+      "name": "Penjualan dan Pelanggan",
+      "moduleIds": [
+        "sales",
+        "crm",
+        "pos",
+        "ecommerce",
+        "after-sales",
+        "customer-portal"
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "name": "Rantai Pasok dan Logistik",
+      "moduleIds": [
+        "procurement-inventory",
+        "fleet",
+        "contracts",
+        "supplier-portal"
+      ]
+    },
+    {
+      "id": "operations",
+      "name": "Operasional dan Produksi",
+      "moduleIds": [
+        "manufacturing",
+        "quality",
+        "maintenance",
+        "projects"
+      ]
+    },
+    {
+      "id": "controls",
+      "name": "Administrasi, Kontrol, dan Kepatuhan",
+      "moduleIds": [
+        "approval",
+        "documents",
+        "compliance"
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Analitik dan Pelaporan",
+      "moduleIds": [
+        "analytics"
+      ]
+    },
+    {
+      "id": "platform",
+      "name": "Platform dan Pengaturan Sistem",
+      "moduleIds": [
+        "administration",
+        "integrations"
+      ]
+    }
+  ],
+  "erpModules": [
+    {
+      "id": "accounting",
+      "name": "Akuntansi/Jurnal/Aset",
+      "groupId": "finance",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Perluasan akuntansi standar pada platform: satu perusahaan, akun yang disetujui klien, aset dan penyusutan satu metode; validasi satu periode. Fondasi yang sudah termasuk paket tidak ditagih lagi.",
+      "discoveryReferenceFeatures": [
+        "Chart of accounts",
+        "Jurnal umum dan penyesuaian",
+        "Buku besar",
+        "Hutang dan piutang",
+        "Aset tetap dan penyusutan",
+        "Tutup buku periode",
+        "Laporan neraca, laba rugi, arus kas"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "hr-payroll",
+      "name": "Personalia/Penggajian",
+      "groupId": "people",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Data maksimal 20 karyawan, cuti, gaji tetap, satu format slip dan satu periode uji; rumus disetujui klien. Shift kompleks, mesin absensi dan perhitungan pajak/BPJS otomatis dihitung terpisah.",
+      "discoveryReferenceFeatures": [
+        "Data karyawan",
+        "Absensi dan shift",
+        "Cuti dan izin",
+        "Lembur",
+        "Komponen gaji dan tunjangan",
+        "Penggajian dan slip gaji",
+        "PPh 21 dan BPJS",
+        "Rekrutmen dan kontrak",
+        "KPI/penilaian kinerja"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "sales",
+      "name": "Penjualan",
+      "groupId": "customers",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu alur standar penawaran, order, pengiriman, faktur dan retur; satu daftar harga. Komisi bertingkat dan aturan kredit khusus dihitung terpisah.",
+      "discoveryReferenceFeatures": [
+        "Penawaran",
+        "Sales order",
+        "Delivery order",
+        "Faktur",
+        "Retur penjualan",
+        "Harga bertingkat dan diskon",
+        "Piutang dan limit kredit",
+        "Komisi sales"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "procurement-inventory",
+      "name": "Pembelian/Stok/Logistik",
+      "groupId": "supply-chain",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu alur PO dan penerimaan, satu gudang, transfer/opname standar; tanpa konsinyasi, batch, serial, FEFO khusus atau optimasi logistik.",
+      "discoveryReferenceFeatures": [
+        "Permintaan pembelian",
+        "Purchase order",
+        "Penerimaan barang",
+        "Retur supplier",
+        "Multi-gudang",
+        "Transfer stok",
+        "Stok opname",
+        "Kartu stok",
+        "Batch/lot/serial",
+        "Minimum stok",
+        "Surat jalan"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "manufacturing",
+      "name": "Produksi/Manufaktur/Biaya",
+      "groupId": "operations",
+      "price": {
+        "amount": 7500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "BOM satu tingkat dan work order standar untuk satu alur produksi. MRP kompleks, kapasitas mesin, WIP dan perhitungan biaya khusus memakai penawaran custom.",
+      "discoveryReferenceFeatures": [
+        "BOM/Resep",
+        "MRP",
+        "Jadwal produksi",
+        "Work order",
+        "Pengeluaran bahan",
+        "Hasil produksi, reject, scrap",
+        "WIP",
+        "HPP dan biaya standar vs aktual"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "crm",
+      "name": "CRM",
+      "groupId": "customers",
+      "price": {
+        "amount": 2250000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu pipeline maksimal lima tahap, kontak, aktivitas dan pengingat standar; tanpa pengiriman kampanye massal atau integrasi pesan.",
+      "discoveryReferenceFeatures": [
+        "Data pelanggan dan prospek",
+        "Lead dan pipeline",
+        "Aktivitas dan reminder",
+        "Kampanye pemasaran",
+        "Penawaran dan kontrak",
+        "Forecast penjualan, win/loss"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "projects",
+      "name": "Manajemen Proyek",
+      "groupId": "operations",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu model proyek dengan tugas, milestone dan timesheet standar; tanpa kurva S, AHSP, RAB, retensi atau aturan penagihan khusus.",
+      "discoveryReferenceFeatures": [
+        "Task dan milestone",
+        "Gantt chart",
+        "Alokasi sumber daya",
+        "Anggaran vs realisasi",
+        "Timesheet",
+        "Penagihan termin",
+        "Dokumen dan komentar"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "quality",
+      "name": "Manajemen Kualitas (QC)",
+      "groupId": "operations",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu template inspeksi, parameter dan hasil lulus/gagal standar. NCR/CAPA khusus dan sertifikasi memerlukan ruang lingkup terpisah.",
+      "discoveryReferenceFeatures": [
+        "Inspeksi incoming/in-process/final",
+        "Standar kualitas per produk",
+        "Defect, reject, rework",
+        "NCR/CAPA",
+        "Sertifikat dan audit mutu",
+        "Lot tracking"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "maintenance",
+      "name": "Pemeliharaan (CMMS)",
+      "groupId": "operations",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Daftar peralatan, satu jadwal preventive maintenance dan work order standar; tanpa sensor, IoT atau analitik mesin khusus.",
+      "discoveryReferenceFeatures": [
+        "Daftar mesin/peralatan",
+        "Preventive maintenance",
+        "Corrective maintenance dan work order",
+        "Sparepart",
+        "Downtime, MTBF, MTTR"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "budget",
+      "name": "Anggaran dan Perencanaan Keuangan",
+      "groupId": "finance",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu model anggaran per periode/departemen dan laporan anggaran vs realisasi dari data yang sudah tersedia.",
+      "discoveryReferenceFeatures": [
+        "Anggaran per departemen/proyek/periode",
+        "Anggaran vs realisasi",
+        "Revisi dan persetujuan",
+        "Proyeksi cash flow"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "cash-bank",
+      "name": "Kas dan Bank",
+      "groupId": "finance",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Kas/bank standar, impor satu format mutasi dan rekonsiliasi berbantuan pengguna; tanpa API bank atau eksekusi transfer uang.",
+      "discoveryReferenceFeatures": [
+        "Rekonsiliasi bank",
+        "Mutasi rekening",
+        "Transfer antarbank",
+        "Petty cash",
+        "Deposito, pinjaman, cicilan",
+        "Valas dan kurs"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "tax",
+      "name": "Perpajakan",
+      "groupId": "finance",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Konfigurasi dan rekap satu jenis pajak berdasarkan aturan serta contoh yang disetujui penanggung jawab pajak klien. Integrasi e-Faktur/e-Bupot dan pelaporan resmi terpisah.",
+      "discoveryReferenceFeatures": [
+        "PPN",
+        "PPh 21/23/4(2)",
+        "Faktur pajak",
+        "Bukti potong",
+        "e-Faktur dan e-Bupot",
+        "Rekap SPT"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "documents",
+      "name": "Manajemen Dokumen",
+      "groupId": "controls",
+      "price": {
+        "amount": 2250000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Penyimpanan, kategori, izin akses dan versioning yang sudah tersedia pada platform; tanpa layanan tanda tangan elektronik berbayar.",
+      "discoveryReferenceFeatures": [
+        "Penyimpanan terpusat",
+        "Versioning",
+        "Hak akses dan tag",
+        "Tanda tangan digital",
+        "Pengingat masa berlaku"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "approval",
+      "name": "Workflow dan Approval",
+      "groupId": "controls",
+      "price": {
+        "amount": 2250000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu alur maksimal dua tingkat persetujuan dengan role dan log; tanpa aturan kompleks atau notifikasi WhatsApp.",
+      "discoveryReferenceFeatures": [
+        "Approval bertingkat",
+        "Aturan berdasarkan nominal/departemen/jabatan",
+        "Notifikasi email/app/WhatsApp",
+        "Audit trail"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "analytics",
+      "name": "Dashboard, Laporan, BI",
+      "groupId": "analytics",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Tiga indikator dashboard dan dua laporan dari data tersedia; tanpa report builder mandiri atau gudang data baru.",
+      "discoveryReferenceFeatures": [
+        "Dashboard eksekutif",
+        "Report builder",
+        "Drill-down",
+        "Ekspor Excel/PDF",
+        "Jadwal laporan otomatis"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "after-sales",
+      "name": "Layanan Pelanggan/After-Sales",
+      "groupId": "customers",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu antrean tiket, status, penanggung jawab dan pengingat standar. Fitur SLA aplikasi tidak berarti penyedia memberi layanan dukungan 24 jam.",
+      "discoveryReferenceFeatures": [
+        "Tiket dan SLA",
+        "Garansi dan klaim",
+        "Retur dan servis",
+        "Knowledge base",
+        "Survei kepuasan"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "pos",
+      "name": "POS Kasir",
+      "groupId": "customers",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu kasir/counter online dengan transaksi, retur berizin, tutup shift dan satu cetak struk; perangkat, offline dan pembayaran otomatis terpisah.",
+      "discoveryReferenceFeatures": [
+        "Transaksi",
+        "Shift kasir",
+        "Multi-pembayaran",
+        "Diskon dan retur",
+        "Cetak struk",
+        "Mode offline"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-Commerce",
+      "groupId": "customers",
+      "price": {
+        "amount": 7500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu toko pada platform siap pakai dengan katalog, keranjang dan pencatatan order. Pembayaran, kurir dan marketplace otomatis memakai konektor terpisah.",
+      "discoveryReferenceFeatures": [
+        "Katalog online",
+        "Keranjang dan checkout",
+        "Payment gateway",
+        "Integrasi kurir",
+        "Sinkronisasi stok dan marketplace"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "customer-portal",
+      "name": "Portal Pelanggan",
+      "groupId": "customers",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Portal pelanggan standar dengan isolasi data, status order dan tagihan; tanpa payment gateway dan aplikasi mobile.",
+      "discoveryReferenceFeatures": [
+        "Cek pesanan",
+        "Tagihan",
+        "Pembayaran"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "supplier-portal",
+      "name": "Portal Supplier",
+      "groupId": "supply-chain",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Portal supplier standar dengan isolasi data untuk PO, informasi pengiriman dan tagihan; tanpa integrasi ERP supplier.",
+      "discoveryReferenceFeatures": [
+        "PO",
+        "Pengiriman",
+        "Tagihan"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "employee-portal",
+      "name": "Portal Karyawan",
+      "groupId": "people",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Portal maksimal 20 karyawan untuk slip, cuti dan absensi online standar; tanpa biometrik atau geofencing.",
+      "discoveryReferenceFeatures": [
+        "Slip gaji",
+        "Pengajuan cuti",
+        "Absensi"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "fleet",
+      "name": "Armada dan Transportasi",
+      "groupId": "supply-chain",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Data kendaraan/sopir, penugasan, jadwal dan biaya per kendaraan; tanpa GPS, optimasi rute atau aplikasi driver khusus.",
+      "discoveryReferenceFeatures": [
+        "Data kendaraan dan sopir",
+        "Jadwal dan rute",
+        "BBM, servis, pajak, KIR",
+        "Tracking GPS",
+        "Biaya per pengiriman"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "contracts",
+      "name": "Kontrak dan Vendor",
+      "groupId": "supply-chain",
+      "price": {
+        "amount": 2250000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Kontrak vendor, tanggal berlaku, pengingat dan tagihan berulang standar; tanpa penagihan pembayaran otomatis.",
+      "discoveryReferenceFeatures": [
+        "Kontrak dan perpanjangan",
+        "Evaluasi supplier",
+        "Recurring billing"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "compliance",
+      "name": "Kepatuhan, Risiko, Audit",
+      "groupId": "controls",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Peninjauan role, pemisahan tugas, log dan satu daftar kontrol; bukan audit bersertifikat atau jaminan kepatuhan hukum.",
+      "discoveryReferenceFeatures": [
+        "Log aktivitas dan histori perubahan",
+        "Segregation of duties",
+        "Manajemen risiko",
+        "Temuan audit",
+        "Perlindungan data pribadi"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "administration",
+      "name": "Administrasi Sistem",
+      "groupId": "platform",
+      "price": {
+        "amount": 2250000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Perluasan pengaturan pada satu instalasi: satu cabang tambahan, role dan satu template; kapasitas server serta migrasi antarperusahaan dihitung terpisah.",
+      "discoveryReferenceFeatures": [
+        "Manajemen user dan role",
+        "Master data",
+        "Multi-perusahaan/cabang/gudang/mata uang",
+        "Penomoran dokumen dan template",
+        "Backup dan keamanan",
+        "Log sistem"
+      ],
+      "demoStatus": "planned"
+    },
+    {
+      "id": "integrations",
+      "name": "Integrasi dan Pengembangan",
+      "groupId": "platform",
+      "price": {
+        "amount": 4500000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "pricedConfigurationScope": "Satu API terdokumentasi dengan maksimal dua operasi dan akses uji tersedia; log, penanganan error dan uji duplikasi. API tertutup atau perubahan provider memerlukan estimasi baru.",
+      "discoveryReferenceFeatures": [
+        "API dan webhook",
+        "Impor/ekspor Excel/CSV",
+        "Custom field dan otomasi",
+        "Aplikasi mobile"
+      ],
+      "demoStatus": "planned"
+    }
+  ],
+  "erpSupportingWork": [
+    {
+      "id": "impor-data-tambahan",
+      "name": "Impor data tambahan",
+      "price": {
+        "amount": 750000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu template CSV bersih maksimal 1.000 baris, dengan pratinjau dan rekonsiliasi jumlah; pembersihan dan transaksi lama terpisah."
+    },
+    {
+      "id": "laporan-khusus",
+      "name": "Laporan khusus",
+      "price": {
+        "amount": 750000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu laporan dari field yang sudah ada dengan filter dan ekspor standar; tanpa sumber data baru."
+    },
+    {
+      "id": "template-cetak",
+      "name": "Template cetak",
+      "price": {
+        "amount": 375000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu dokumen yang sudah ada; penyesuaian tata letak dan satu revisi."
+    },
+    {
+      "id": "pelatihan-tambahan",
+      "name": "Pelatihan tambahan",
+      "price": {
+        "amount": 375000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu sesi daring 2 jam dan persiapan 30 menit; peserta serta materi disepakati."
+    },
+    {
+      "id": "notifikasi-whatsapp-resmi",
+      "name": "Notifikasi WhatsApp resmi",
+      "price": {
+        "amount": 3000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Satu pemicu dan satu template melalui provider resmi dengan izin penerima; tarif pesan dan langganan terpisah."
+    },
+    {
+      "id": "pos-offline",
+      "name": "POS offline",
+      "price": {
+        "amount": 6000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Estimasi awal 32 jam dasar untuk satu perangkat/alur; sinkronisasi, duplikasi dan konflik harus diuji; kelayakan ditentukan discovery."
+    },
+    {
+      "id": "aplikasi-mobile-khusus",
+      "name": "Aplikasi mobile khusus",
+      "price": {
+        "amount": 15000000,
+        "currency": "IDR",
+        "mode": "starting",
+        "billing": "once"
+      },
+      "scope": "Estimasi awal 80 jam dasar untuk satu alur dan satu platform; API backend tersedia; biaya store dan layanan eksternal terpisah."
+    },
+    {
+      "id": "pemeliharaan-erp",
+      "name": "Pemeliharaan ERP",
+      "price": {
+        "amount": 500000,
+        "currency": "IDR",
+        "mode": "fixed",
+        "billing": "monthly"
+      },
+      "scope": "Maksimal 2,5 jam total untuk pemeriksaan backup dan perubahan kecil; jadwal serta waktu respons pada hari kerja disepakati. Bug garansi tidak mengurangi jatah."
+    }
+  ],
+  "industries": [
+    {
+      "id": "retail",
+      "name": "Toko Retail / Minimarket",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "pos",
+        "procurement-inventory"
+      ],
+      "referenceOptionalModuleIds": [
+        "crm",
+        "analytics",
+        "approval"
+      ],
+      "discoveryReferenceFeatures": [
+        "POS kasir: Scan barcode; Multi-pembayaran (tunai, QRIS, kartu, e-wallet); Diskon; Retur; Buka/tutup shift; Cetak struk; Mode offline.",
+        "Produk: Barcode; Varian; Multi-satuan; Harga bertingkat; Harga per cabang.",
+        "Stok: Multi-gudang/cabang; Transfer stok; Stok opname; Minimum stok; Kartu stok; Barang kedaluwarsa.",
+        "Promo dan loyalty: Poin member; Voucher; Diskon periode; Bundling.",
+        "Laporan: Penjualan per kasir/produk/jam; Laba rugi per produk; Slow-moving; Rekap kas harian."
+      ],
+      "budgetIndication": {
+        "min": 24000000,
+        "max": 45000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "POS dan stok; harga ini mengecualikan offline, hardware dan pembayaran otomatis."
+      },
+      "demo": {
+        "id": "industry-retail",
+        "route": "/demo/solusi/retail/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "distributor",
+      "name": "Distributor / Grosir",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "sales",
+        "procurement-inventory",
+        "fleet"
+      ],
+      "referenceOptionalModuleIds": [
+        "crm",
+        "quality",
+        "maintenance",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Penjualan: Penawaran; Sales order; Delivery order; Faktur; Retur; Harga per pelanggan/grup.",
+        "Sales lapangan: Canvassing/taking order mobile; Rute kunjungan; Target sales; Komisi.",
+        "Piutang: Limit kredit; Jatuh tempo; Umur piutang; Penagihan; Giro/cek.",
+        "Stok: Multi-gudang; Batch/lot; Expired date (FEFO); Konsinyasi.",
+        "Logistik: Surat jalan; Jadwal pengiriman; Driver; Ongkos kirim; Bukti terima.",
+        "Laporan: Penjualan per sales/area/pelanggan; Aging piutang; Perputaran stok; Margin per produk."
+      ],
+      "budgetIndication": {
+        "min": 30000000,
+        "max": 60000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Harga pelanggan, kredit, gudang dan pengiriman; mobile canvassing dan GPS terpisah."
+      },
+      "demo": {
+        "id": "industry-distributor",
+        "route": "/demo/solusi/distributor/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "manufacturing",
+      "name": "Pabrik / Manufaktur",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "sales",
+        "procurement-inventory",
+        "manufacturing",
+        "quality",
+        "maintenance"
+      ],
+      "referenceOptionalModuleIds": [
+        "crm",
+        "fleet",
+        "projects",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "BOM/Resep: Komposisi bahan; Bahan pengganti; Produk jadi dan sampingan.",
+        "Perencanaan: MRP; Jadwal produksi; Kapasitas mesin.",
+        "Produksi: Work order; Pengeluaran bahan; Hasil produksi; Reject/scrap; WIP.",
+        "Biaya produksi: HPP per produk; Biaya bahan, tenaga kerja, overhead; Selisih standar vs aktual.",
+        "QC: Inspeksi bahan masuk, in-process, barang jadi; NCR/CAPA; Lot tracking.",
+        "Maintenance: Daftar mesin; Preventive/corrective; Sparepart; Downtime.",
+        "HR pabrik: Shift; Lembur; Borongan/upah per unit; K3.",
+        "Laporan: Efisiensi produksi; Yield; OEE; HPP; Pemakaian bahan; Downtime mesin."
+      ],
+      "budgetIndication": {
+        "min": 60000000,
+        "max": 150000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "BOM, produksi, biaya, QC dan maintenance; membutuhkan keahlian manufaktur serta mitra bila kapasitas tidak cukup."
+      },
+      "demo": {
+        "id": "industry-manufacturing",
+        "route": "/demo/solusi/manufacturing/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "construction",
+      "name": "Kontraktor / Konstruksi",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "projects",
+        "procurement-inventory",
+        "quality",
+        "maintenance"
+      ],
+      "referenceOptionalModuleIds": [
+        "crm",
+        "documents",
+        "budget"
+      ],
+      "discoveryReferenceFeatures": [
+        "Proyek: Data proyek; Kontrak; Gantt/kurva S; Milestone.",
+        "RAB dan anggaran: Analisa harga satuan (AHSP); RAB; Revisi; Anggaran vs realisasi per item.",
+        "Progres: Laporan harian/mingguan; Progres fisik (%); Foto lapangan; Opname.",
+        "Penagihan: Termin; Uang muka; Retensi; Invoice progres.",
+        "Subkontraktor: Kontrak; Opname; Pembayaran; Retensi.",
+        "Material: Permintaan material; PO; Penerimaan di lokasi; Stok per proyek; Pemakaian.",
+        "Alat berat: Data alat; Sewa; BBM; Operator; Maintenance; Biaya per jam.",
+        "Tenaga kerja: Mandor; Upah harian/borongan; Absensi lokasi.",
+        "Dokumen: Gambar kerja; Addendum; Izin; Bank garansi.",
+        "Laporan: Laba rugi per proyek; Cash flow proyek; Deviasi biaya dan jadwal."
+      ],
+      "budgetIndication": {
+        "min": 30000000,
+        "max": 75000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Proyek, material, RAB, progres dan termin; kurva S serta retensi dipilih dalam scope."
+      },
+      "demo": {
+        "id": "industry-construction",
+        "route": "/demo/solusi/construction/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "services",
+      "name": "Perusahaan Jasa / Konsultan / Agensi",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "crm",
+        "projects"
+      ],
+      "referenceOptionalModuleIds": [
+        "documents",
+        "analytics",
+        "customer-portal"
+      ],
+      "discoveryReferenceFeatures": [
+        "CRM: Lead; Pipeline; Penawaran; Kontrak.",
+        "Proyek/layanan: Tugas; Tim; Deadline; Milestone; Brief klien.",
+        "Timesheet: Jam kerja per orang per proyek; Tarif per jam; Lembur.",
+        "Penagihan: Invoice berbasis jam, termin, retainer; Recurring invoice.",
+        "Biaya: Reimbursement; Perjalanan dinas; Biaya proyek.",
+        "Utilisasi: Pemakaian SDM; Profitabilitas per proyek/klien.",
+        "Portal klien: Status proyek; Dokumen; Invoice."
+      ],
+      "budgetIndication": {
+        "min": 18000000,
+        "max": 30000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "CRM, proyek, timesheet dan penagihan; payroll sesuai contoh yang disetujui."
+      },
+      "demo": {
+        "id": "industry-services",
+        "route": "/demo/solusi/services/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "food-beverage",
+      "name": "Restoran / Kafe / F&B",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "pos",
+        "procurement-inventory"
+      ],
+      "referenceOptionalModuleIds": [
+        "manufacturing",
+        "crm",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "POS: Order meja; Take away; Delivery; Split/merge bill; Void dengan otorisasi.",
+        "Menu: Kategori; Modifier; Paket; Harga per jam/channel.",
+        "Dapur (KDS): Layar pesanan; Status masak; Antrean.",
+        "Resep dan HPP: Komposisi bahan per menu; Food cost; Porsi.",
+        "Stok bahan: Pemakaian otomatis dari penjualan; Minimum stok; Waste/spoilage; Opname.",
+        "Reservasi dan meja: Denah meja; Booking; Deposit.",
+        "Integrasi: GoFood/GrabFood/ShopeeFood; QRIS; Mesin kartu.",
+        "Multi-outlet: Central kitchen; Transfer bahan antar outlet.",
+        "HR: Shift; Absensi; Service charge; Tip."
+      ],
+      "budgetIndication": {
+        "min": 30000000,
+        "max": 60000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "POS, resep dan bahan; KDS, offline, perangkat serta platform delivery terpisah."
+      },
+      "demo": {
+        "id": "industry-food-beverage",
+        "route": "/demo/solusi/food-beverage/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "healthcare",
+      "name": "Klinik / Rumah Sakit",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "procurement-inventory"
+      ],
+      "referenceOptionalModuleIds": [
+        "maintenance",
+        "compliance",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Pendaftaran: Data pasien; Antrean; Jadwal dokter; Janji temu.",
+        "Rekam medis (EMR): Anamnesis; Diagnosis (ICD); Tindakan; Resep; Riwayat kunjungan.",
+        "Layanan: Rawat jalan; Rawat inap; IGD; Laboratorium; Radiologi.",
+        "Farmasi: Obat; Resep; Stok; Batch; Kedaluwarsa; Obat keras.",
+        "Billing: Tarif tindakan; Tagihan gabungan; Asuransi/BPJS; Deposit.",
+        "Rawat inap: Kamar; Tempat tidur; Visite; Gizi.",
+        "Dokter: Jasa medis; Bagi hasil.",
+        "Kepatuhan: Integrasi BPJS; SatuSehat; Privasi data pasien.",
+        "Laporan: Kunjungan; 10 penyakit terbanyak; Pendapatan per layanan/dokter; Pemakaian obat."
+      ],
+      "budgetIndication": {
+        "min": 60000000,
+        "max": 150000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Pendaftaran, billing dan kebutuhan klinis terpilih; EMR serta interoperabilitas membutuhkan mitra. Rumah sakit diaudit terpisah."
+      },
+      "demo": {
+        "id": "industry-healthcare",
+        "route": "/demo/solusi/healthcare/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "education",
+      "name": "Sekolah / Kampus / Lembaga Kursus",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll"
+      ],
+      "referenceOptionalModuleIds": [
+        "procurement-inventory",
+        "crm",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Kesiswaan: PPDB/pendaftaran; Data siswa; Kelas; Wali.",
+        "Akademik: Kurikulum; Jadwal; Absensi; Nilai; Rapor/KHS; Ujian.",
+        "Guru dan staf: Data pegawai; Jam mengajar; Penggajian.",
+        "Keuangan siswa: Tagihan SPP; Uang gedung; Seragam; Cicilan; Beasiswa; Virtual account.",
+        "Fasilitas: Perpustakaan; Asrama; Inventaris.",
+        "Portal orang tua/siswa: Nilai; Absensi; Tagihan; Pengumuman.",
+        "Laporan: Tunggakan; Kehadiran; Prestasi; Pendapatan per jenjang."
+      ],
+      "budgetIndication": {
+        "min": 45000000,
+        "max": 90000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Siswa, akademik dan tagihan; portal, virtual account serta skala kampus ditentukan terpisah."
+      },
+      "demo": {
+        "id": "industry-education",
+        "route": "/demo/solusi/education/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "agribusiness",
+      "name": "Agribisnis / Perkebunan / Perikanan",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "sales",
+        "procurement-inventory",
+        "quality",
+        "maintenance",
+        "fleet"
+      ],
+      "referenceOptionalModuleIds": [
+        "manufacturing",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Master lahan: Blok/kebun/kolam; Luas; Tahun tanam; Komoditas.",
+        "Budidaya: Pemupukan; Penyemprotan; Pakan; Perawatan; Biaya per blok.",
+        "Panen: Hasil per blok/pemanen; Tonase; Grading; Premi panen.",
+        "Timbangan: Integrasi jembatan timbang; Tiket timbang; Potongan mutu.",
+        "Pengolahan: Produksi hasil olahan; Rendemen; Stok produk.",
+        "Penjualan: Kontrak; Pengiriman; Harga acuan; Invoice.",
+        "Plasma/petani mitra: Data petani; Hasil setoran; Pinjaman/kredit; Pembayaran.",
+        "Tenaga kerja: Pemanen; Borongan; Premi; Absensi lapangan.",
+        "Laporan: Produktivitas per blok; Biaya per kg/ton; Laba kebun."
+      ],
+      "budgetIndication": {
+        "min": 45000000,
+        "max": 90000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Blok atau kolam, budidaya, panen dan biaya; timbangan, perangkat serta fitur lapangan terpisah."
+      },
+      "demo": {
+        "id": "industry-agribusiness",
+        "route": "/demo/solusi/agribusiness/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "logistics",
+      "name": "Logistik / Ekspedisi / Transportasi",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "sales",
+        "fleet",
+        "crm",
+        "maintenance"
+      ],
+      "referenceOptionalModuleIds": [
+        "procurement-inventory",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Order: Booking; Resi/AWB; Tarif per rute/berat; Kontrak pelanggan.",
+        "Operasional: Penjadwalan; Manifest; Rute; Penugasan driver dan kendaraan.",
+        "Tracking: Status pengiriman; GPS; POD (foto/tanda tangan).",
+        "Armada: Data kendaraan; BBM; Servis; Pajak/KIR; Ban; Biaya per km.",
+        "Driver: Uang jalan; Premi; Ritase; Pelanggaran.",
+        "Gudang/cross-dock: Penerimaan; Sortir; Penyimpanan.",
+        "Penagihan: Invoice per periode; Klaim kerusakan/kehilangan.",
+        "Laporan: Ketepatan waktu; Utilisasi armada; Profit per rute/kendaraan."
+      ],
+      "budgetIndication": {
+        "min": 45000000,
+        "max": 90000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Order, manifest, armada dan penagihan; GPS, POD mobile dan optimasi rute terpisah."
+      },
+      "demo": {
+        "id": "industry-logistics",
+        "route": "/demo/solusi/logistics/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "property",
+      "name": "Properti / Real Estate",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "sales",
+        "crm",
+        "projects",
+        "procurement-inventory"
+      ],
+      "referenceOptionalModuleIds": [
+        "documents",
+        "budget",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Master proyek: Kawasan; Blok; Tipe; Unit; Harga; Status unit.",
+        "Pemasaran: Lead; Agen/marketing; Komisi; Simulasi KPR.",
+        "Penjualan: Booking fee; SPR; PPJB; Jadwal cicilan/KPR; Akad.",
+        "Penagihan: Cicilan; Denda keterlambatan; Pelunasan.",
+        "Pembangunan: RAB; Progres; Serah terima unit; Komplain.",
+        "Sewa/pengelolaan: Kontrak sewa; Tagihan listrik/air/IPL; Tenant.",
+        "Dokumen: Sertifikat; IMB/PBG; Pemecahan sertifikat.",
+        "Laporan: Penjualan unit; Piutang konsumen; Arus kas proyek."
+      ],
+      "budgetIndication": {
+        "min": 30000000,
+        "max": 75000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Unit, booking, cicilan dan progres; dokumen legal serta simulasi pembiayaan perlu validasi pemilik proses."
+      },
+      "demo": {
+        "id": "industry-property",
+        "route": "/demo/solusi/property/",
+        "data": "synthetic"
+      }
+    },
+    {
+      "id": "ecommerce",
+      "name": "Toko Online / E-Commerce",
+      "referenceCoreModuleIds": [
+        "accounting",
+        "hr-payroll",
+        "ecommerce",
+        "sales",
+        "procurement-inventory",
+        "crm"
+      ],
+      "referenceOptionalModuleIds": [
+        "pos",
+        "fleet",
+        "analytics"
+      ],
+      "discoveryReferenceFeatures": [
+        "Katalog: Produk; Varian; Foto; SEO; Kategori.",
+        "Order: Keranjang; Checkout; Kode promo; Status pesanan.",
+        "Pembayaran: Payment gateway; Transfer; COD; E-wallet.",
+        "Pengiriman: Integrasi kurir; Cek ongkir; Resi otomatis.",
+        "Marketplace: Sinkronisasi stok dan order Tokopedia, Shopee, Lazada.",
+        "Retur: Retur dan refund; Ulasan pelanggan.",
+        "Marketing: Voucher; Flash sale; Email/WhatsApp; Analitik iklan.",
+        "Stok: Multi-gudang; Dropship; Pre-order.",
+        "Laporan: Penjualan per channel; Margin setelah fee marketplace; Retur."
+      ],
+      "budgetIndication": {
+        "min": 30000000,
+        "max": 60000000,
+        "currency": "IDR",
+        "basis": "selected-scope-after-discovery",
+        "exclusions": "Order, stok dan margin kanal; payment gateway, kurir dan tiap marketplace dihitung terpisah."
+      },
+      "demo": {
+        "id": "industry-ecommerce",
+        "route": "/demo/solusi/ecommerce/",
+        "data": "synthetic"
+      }
+    }
+  ],
+  "packageInclusions": {
+    "plus": {
+      "section": 2,
+      "copy": 1,
+      "form": 1
+    },
+    "profile": {
+      "page": 2,
+      "copy": 1
+    },
+    "saji": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "saji-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    },
+    "bekal": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "bekal-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    },
+    "luma": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "luma-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    },
+    "sela": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "sela-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    },
+    "karya": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "karya-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    },
+    "panggung": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "panggung-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    },
+    "temu": {
+      "section": 0,
+      "page": 0,
+      "revision": 3
+    },
+    "temu-qris": {
+      "section": 0,
+      "page": 0,
+      "revision": 3,
+      "form": 1
+    }
+  },
+  "pricingRules": {
+    "websiteDepositRatio": 0.5,
+    "discoveryDepositRatio": 1,
+    "erpImplementationMilestoneRatios": [
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    "websiteBugWarrantyDays": 14,
+    "erpBugWarrantyDays": 30,
+    "externalProviderCosts": "separate",
+    "recurringCosts": "separate-from-once-and-deposit",
+    "aggregateErpModulePricesAsFinalQuote": false,
+    "websiteRevisionRounds": 3,
+    "erpRevisionRounds": 3
+  }
+}

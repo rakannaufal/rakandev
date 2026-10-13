@@ -1,0 +1,115 @@
+{
+  "desktop": "passed",
+  "fonts": [
+    {
+      "family": "Caveat",
+      "weight": "700",
+      "status": "loaded"
+    },
+    {
+      "family": "Manrope",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Manrope",
+      "weight": "500",
+      "status": "loaded"
+    },
+    {
+      "family": "Manrope",
+      "weight": "600",
+      "status": "loaded"
+    }
+  ],
+  "printLayout": [
+    {
+      "id": "identity",
+      "clipped": []
+    },
+    {
+      "id": "logos",
+      "clipped": []
+    },
+    {
+      "id": "colors",
+      "clipped": []
+    },
+    {
+      "id": "type",
+      "clipped": []
+    },
+    {
+      "id": "ui",
+      "clipped": []
+    },
+    {
+      "id": "foundations",
+      "clipped": []
+    },
+    {
+      "id": "usage",
+      "clipped": []
+    },
+    {
+      "id": "anatomy",
+      "clipped": []
+    }
+  ],
+  "mobile": [
+    {
+      "viewport": 360,
+      "content": 360,
+      "brokenImages": 0
+    },
+    {
+      "viewport": 390,
+      "content": 390,
+      "brokenImages": 0
+    },
+    {
+      "viewport": 760,
+      "content": 760,
+      "brokenImages": 0
+    }
+  ],
+  "interactions": [
+    "form empty and valid",
+    "logo micro/primary switch",
+    "swatch feedback",
+    "button feedback"
+  ],
+  "pageErrors": [],
+  "logoExports": {
+    "count": 16,
+    "oneColor": true,
+    "outlined": true,
+    "transparent": true,
+    "unclipped": true,
+    "monogramHash": "0c2ddc739ee406faa3986f4a3f0c631674d14307f462423e7475449b95208f64"
+  },
+  "canvas": {
+    "draftId": "693800ec-f6ad-4a19-a0ab-4510bcfcae85",
+    "version": 7,
+    "brandVersion": "4.0.0",
+    "assetHashes": "verified",
+    "desktop": {
+      "viewport": 1500,
+      "content": 1500,
+      "brokenImages": 0
+    },
+    "mobile": [
+      {
+        "viewport": 360,
+        "content": 360,
+        "brokenImages": 0
+      },
+      {
+        "viewport": 390,
+        "content": 390,
+        "brokenImages": 0
+      }
+    ],
+    "renderedHeadingFont": "Caveat"
+  }
+}

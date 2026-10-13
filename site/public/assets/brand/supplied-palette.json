@@ -1,0 +1,14 @@
+{
+  "brand": "RakanDev",
+  "colors": {
+    "sea_teal": "#086288",
+    "harbor_blue": "#4D8DBA",
+    "sky_blue": "#97D7FF",
+    "white": "#FFFFFF"
+  },
+  "selected_logo": {
+    "monogram_r": "sea_teal",
+    "monogram_d": "sky_blue",
+    "wordmark": "sea_teal"
+  }
+}

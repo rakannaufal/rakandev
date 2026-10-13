@@ -1,0 +1,10 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { allRoutes, pageMeta, renderMarketing } from '../lib/render.mjs';
+import { renderDemo } from '../lib/render-demo.mjs';
+export function getStaticPaths() { return allRoutes().map(path => ({ params: { path }, props: { path } })); }
+const { path } = Astro.props;
+const meta = pageMeta(path);
+const content = meta.demo ? renderDemo(path) : renderMarketing(path);
+---
+<SiteLayout {...meta}><Fragment set:html={content} /></SiteLayout>

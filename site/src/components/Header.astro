@@ -1,0 +1,14 @@
+---
+const links = [['Layanan', '/layanan/'], ['Harga', '/pricing/'], ['Demo', '/demo/'], ['Custom', '/custom/'], ['Proses', '/proses/']];
+const active = Astro.url.pathname;
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="RakanDev beranda"><img src="/assets/brand/rakandev-logo.webp" width="218" height="38" alt="RakanDev" /></a>
+    <button class="mobile-menu-button icon-button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="main-navigation" data-menu-button><img src="/assets/icons/menu.svg" width="24" height="24" alt="" /></button>
+    <nav id="main-navigation" class="main-navigation" aria-label="Navigasi utama">
+      {links.map(([label, href]) => <a href={href} aria-current={active.startsWith(href) ? 'page' : undefined}>{label}</a>)}
+      <a class="button nav-cta" href="/konsultasi/">Konsultasi kebutuhan</a>
+    </nav>
+  </div>
+</header>

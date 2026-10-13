@@ -1,0 +1,1 @@
+RakanDev 4.0. Revisi tipografi: wordmark outline Caveat Bold dengan spasi optis, kontur diperlebar 8%, terminal v memanjang. Headline Caveat terinspirasi website Odoo; body Manrope. Monogram RD menyatu tetap satu warna. Palet #086288, #4D8DBA, #97D7FF, #FFEFC4. Sapuan cream/sky hanya pada headline, bukan logo. Semua posisi logo memakai SVG Brand Assets final.

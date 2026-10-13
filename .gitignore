@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+.sites-runtime/
+artifacts/
+tmp/
+output/
+site/qa/
+brand/qa/
+test-results/
+playwright-report/
+*.log
